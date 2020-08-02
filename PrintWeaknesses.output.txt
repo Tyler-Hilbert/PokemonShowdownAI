@@ -1,0 +1,27 @@
+Ally: 
+pidgey	Normal	Flying
+Foe: 
+Pikachu
+
+(allyPkmn.outcomeDefending(foePkmn))
+pidgey is defending against pikachu
+pidgey weak against Electric
+None
+Ally: 
+pidgey	Normal	Flying
+Foe: 
+Umbreon
+
+(allyPkmn.outcomeDefending(foePkmn))
+pidgey is defending against umbreon
+
+None
+Ally: 
+pidgey	Normal	Flying
+Foe: 
+Carbink
+
+(allyPkmn.outcomeDefending(foePkmn))
+pidgey is defending against carbink
+pidgey weak against Rock
+None
