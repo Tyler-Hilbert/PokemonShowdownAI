@@ -1,18 +1,11 @@
-you are: 
+Ally: 
 pidgey	Normal	Flying
 
-against: 
+Foe: 
 pikachu	Electric
 
 
-(allyPkmn.outcomeAttacking(foePkmn))
-2 - win - pidgey is not very effective
-
 (allyPkmn.outcomeDefending(foePkmn))
-1 - lose - pikachu is super effective
-
-(foePkmn.outcomeAttacking(allyPkmn))
-1 - lose - pikachu is super effective
-
-(foePkmn.outcomeDefending(allyPkmn))
-2 - win - pidgey is not very effective
+pidgey is defending against pikachu
+pidgey weak against Electric
+None
