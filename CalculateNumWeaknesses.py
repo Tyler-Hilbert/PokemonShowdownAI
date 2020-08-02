@@ -1,5 +1,7 @@
 # Calculates the number of weakness a pokemon has
 
+import re
+
 # Loads and stores Pokedex data
 class Pokedex:
     # Loads self.Pokdex
@@ -93,10 +95,34 @@ allyPkmnNameLst = ["jolteon", "umbreon", "espeon", "leafeon", "vaporeon", "flare
 for allyPkmnName in allyPkmnNameLst:
     allyPkmn = Pokemon(pokedex.findPokemonUsingName(allyPkmnName)['name'], pokedex.findPokemonUsingName(allyPkmnName)['types']) # TODO- Pokemon Loading
 
-    # Append all Pokemon names to list
     foeLst = []
+    '''
+    # Append all Pokemon names to list
     for p in pokedex.pokedex:
         foeLst.append(p['name'])
+    '''
+
+    gameStr = """
+|poke|p1|Swampert, M|item
+|poke|p1|Pelipper, F|item
+|poke|p1|Volcanion|item
+|poke|p1|Azumarill, M|item
+|poke|p1|Toxapex, M|item
+|poke|p1|Cloyster, F|item
+|poke|p2|Metagross|item
+|poke|p2|Durant, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Registeel|item
+|poke|p2|Heatran, M|item
+|poke|p2|Togedemaru, F|item
+    """
+    strWords = re.split('[^a-zA-Z]', gameStr)
+
+    for w in strWords:
+        if pokedex.findPokemonUsingName(w) != None:
+            foeLst.append(w)
+
+    print (foeLst)
 
     numWeaknesses = 0
     for foe in foeLst:
@@ -107,5 +133,5 @@ for allyPkmnName in allyPkmnNameLst:
 
 
     # Print
-    s = allyPkmn.name + " has " + str(numWeaknesses) + " weaknesses"
+    s = allyPkmn.name + " has " + str(numWeaknesses) + " weaknesses" + "\n"
     print (s)
