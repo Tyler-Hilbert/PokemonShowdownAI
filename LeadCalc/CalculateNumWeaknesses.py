@@ -521,7 +521,7 @@ pokedex = Pokedex()
 allyPkmnNameLst = ["jolteon", "umbreon", "espeon", "leafeon", "vaporeon", "flareon"]
 
 # Opponent pokemon string
-gameStr = "Chandelure / Talonflame / Incineroar / Darmanitan / Silvally-* / Charizard" # FIXME - Silvally-*
+gameStr = "Dugtrio / Scyther / Slowbro-Galar / Tsareena / Incineroar / Inteleon" # FIXME - Silvally-*
 # Parse out pokemon names
 strWords = re.split('[^a-zA-Z]', gameStr)
 strWordsLwr = []
