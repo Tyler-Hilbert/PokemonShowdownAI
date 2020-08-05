@@ -448,52 +448,55 @@ class Pokemon:
 
             # FIXME - load is defending data for all pokemon
 
+
+
+
             if  type == "Bug":
-                FIXME = 1
+                self.addWeaknesses(bugDefending)
             elif type == "Dark":
-                for key in darkDefending:
-                    if darkDefending[key] == SUPER_EFFECTIVE:
-                        '''
-                        s = self.name + " with type " + type + " is weak against " + key
-                        print (s)
-                        '''
-                        self.weaknesses.append(key)
-            '''
+                self.addWeaknesses(darkDefending)
             elif type == "Dragon":
-                print (dragonDefending)
+                 self.addWeaknesses(dragonDefending)
             elif type == "Electric":
-                print (electricDefending)
+                self.addWeaknesses(electricDefending)
             elif type == "Fairy":
-                print (fairyDefending)
+                self.addWeaknesses(fairyDefending)
             elif type == "Fighting":
-                print (fightingDefending)
+                self.addWeaknesses(fightingDefending)
             elif type == "Fire":
-                print (fireDefending)
+                self.addWeaknesses(fireDefending)
             elif type == "Flying":
-                print (flyingDefending)
+                self.addWeaknesses(flyingDefending)
             elif type == "Ghost":
-                print (ghostDefending)
+                self.addWeaknesses(ghostDefending)
             elif type == "Grass":
-                print (grassDefending)
+                self.addWeaknesses(grassDefending)
             elif type == "Ground":
-                print (groundDefending)
+                self.addWeaknesses(groundDefending)
             elif type == "Ice":
-                print (iceDefending)
+                self.addWeaknesses(iceDefending)
             elif type == "Normal":
-                print (normalDefending)
+                self.addWeaknesses(normalDefending)
             elif type == "Poison":
-                print (poisonDefending)
+                self.addWeaknesses(poisonDefending)
             elif type == "Psychic":
-                print (psychicDefending)
+                self.addWeaknesses(psychicDefending)
             elif type == "Rock":
-                print (rockDefending)
+                self.addWeaknesses(rockDefending)
             elif type == "Steel":
-                print (steelDefending)
+                self.addWeaknesses (steelDefending)
             elif type == "Water":
-                print (waterDefending)
-            '''
+                self.addWeaknesses(waterDefending)
 
-
+    def addWeaknesses(self, defending):
+        # FIXME - don't want these hardcoded in 2 places
+        NORMAL = "Normal"
+        SUPER_EFFECTIVE = "Super effective"
+        NOT_VERY_EFFECTIVE = "NOT_VERY_EFFECTIVE"
+        IMMUNE = "IMMUNE"
+        for key in defending:
+            if defending[key] == SUPER_EFFECTIVE:
+                self.weaknesses.append(key)
 
     def toString(self):
         # TODO - add more data to print
@@ -516,30 +519,31 @@ class Pokemon:
 pokedex = Pokedex()
 
 allyPkmnNameLst = ["jolteon", "umbreon", "espeon", "leafeon", "vaporeon", "flareon"]
-allyPkmnNameLst = ["umbreon"] # FIXME - add full list
+
+# Opponent pokemon string
+gameStr = "Chandelure / Talonflame / Incineroar / Darmanitan / Silvally-* / Charizard" # FIXME - Silvally-*
+# Parse out pokemon names
+strWords = re.split('[^a-zA-Z]', gameStr)
+strWordsLwr = []
+for w  in strWords:
+    strWordsLwr.append(w.lower())
+
+potentialNameStr = []
+[potentialNameStr.append(x) for x in strWordsLwr if x not in potentialNameStr]
+
+# Find foeLst
+foeLst = []
+for w in potentialNameStr:
+    if pokedex.findPokemonUsingName(w) != None:
+        foeLst.append(w)
+
+s = "Foe List: " + str(foeLst) + "\n"
+print (s)
 
 for allyPkmnName in allyPkmnNameLst:
     allyPkmn = Pokemon(pokedex.findPokemonUsingName(allyPkmnName)['name'], pokedex.findPokemonUsingName(allyPkmnName)['types']) # TODO- Pokemon Loading
 
-    # Opponent pokemon string
-    gameStr = "Charizard is cool and so is caterpie pl weedle Weedle"
-    # Parse out pokemon names
-    strWords = re.split('[^a-zA-Z]', gameStr)
-    strWordsLwr = []
-    for w  in strWords:
-        strWordsLwr.append(w.lower())
 
-    potentialNameStr = []
-    [potentialNameStr.append(x) for x in strWordsLwr if x not in potentialNameStr]
-
-    # Find foeLst
-    foeLst = []
-    for w in potentialNameStr:
-        if pokedex.findPokemonUsingName(w) != None:
-            foeLst.append(w)
-
-    s = "Foe List: " + str(foeLst) + "\n"
-    print (s)
 
     # Calculate number of weaknesses
     numWeaknesses = 0
