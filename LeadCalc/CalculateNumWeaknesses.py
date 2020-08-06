@@ -7,8 +7,8 @@ import json
 # TODO - find cleaner way to include this data
 NORMAL = "Normal"
 SUPER_EFFECTIVE = "Super effective"
-NOT_VERY_EFFECTIVE = "NOT_VERY_EFFECTIVE"
-IMMUNE = "IMMUNE"
+NOT_VERY_EFFECTIVE = "Not very effective"
+IMMUNE = "Immune"
 
 defendingMatchups = {
     "bugDefending": {
