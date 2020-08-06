@@ -1,9 +1,22 @@
-# Calculates the number of weakness a pokemon has
+# Calculate number of weaknesses for each of your pokemon against list of enemies
 
 import re
 import json
 
-# Matchups Data
+
+##########  INPUT VARIABLES  ############################################################
+#########################################################################################
+# Enter your team (must be quoted and only pokemon within quotes)
+allyPkmnNameLst = ["jolteon", "umbreon", "espeon", "leafeon", "vaporeon", "flareon"]
+# Enter a string that contains the name of all your opponent pokemon (can contain non-pokemon characters/words)
+gameStr = "Dugtrio / Scyther / Slowbro-Galar / Tsareena / Incineroar / Inteleon"
+# FIXME - "Silvally-*" could be parsed wrong. Check for other odd cases on the name
+#########################################################################################
+#########################################################################################
+
+
+##########  MATCHUP DATA ################################################################
+#########################################################################################
 # TODO - find cleaner way to include this data
 NORMAL = "Normal"
 SUPER_EFFECTIVE = "Super effective"
@@ -402,8 +415,12 @@ defendingMatchups = {
     	"Water": NOT_VERY_EFFECTIVE
     }
 }
+#########################################################################################
+#########################################################################################
 
 
+##########  CLASSES  ####################################################################
+#########################################################################################
 # Loads and stores Pokedex data
 class Pokedex:
     # Loads self.Pokdex
@@ -512,14 +529,14 @@ class Pokemon:
 
 ##### class Pokedex #####
 
+#########################################################################################
+#########################################################################################
 
-## MAIN
+
+########## MAIN  ####################################################################
+#########################################################################################
 pokedex = Pokedex()
 
-allyPkmnNameLst = ["jolteon", "umbreon", "espeon", "leafeon", "vaporeon", "flareon"]
-
-# Opponent pokemon string
-gameStr = "Dugtrio / Scyther / Slowbro-Galar / Tsareena / Incineroar / Inteleon" # FIXME - Silvally-*
 # Parse out pokemon names
 strWords = re.split('[^a-zA-Z]', gameStr)
 strWordsLwr = []
