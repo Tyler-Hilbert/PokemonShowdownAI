@@ -468,44 +468,9 @@ class Pokemon:
         self.weaknesses = [] # TODO - calculate this on the spot
         for type in self.types:
             # FIXME - Add way for 4 times weakness
-            # TODO - load is defending data for all pokemon
-            if  type == "Bug":
-                self.addWeaknesses("bugDefending")
-            elif type == "Dark":
-                self.addWeaknesses("darkDefending")
-            elif type == "Dragon":
-                 self.addWeaknesses("dragonDefending")
-            elif type == "Electric":
-                self.addWeaknesses("electricDefending")
-            elif type == "Fairy":
-                self.addWeaknesses("fairyDefending")
-            elif type == "Fighting":
-                self.addWeaknesses("fightingDefending")
-            elif type == "Fire":
-                self.addWeaknesses("fireDefending")
-            elif type == "Flying":
-                self.addWeaknesses("flyingDefending")
-            elif type == "Ghost":
-                self.addWeaknesses("ghostDefending")
-            elif type == "Grass":
-                self.addWeaknesses("grassDefending")
-            elif type == "Ground":
-                self.addWeaknesses("groundDefending")
-            elif type == "Ice":
-                self.addWeaknesses("iceDefending")
-            elif type == "Normal":
-                self.addWeaknesses("normalDefending")
-            elif type == "Poison":
-                self.addWeaknesses("poisonDefending")
-            elif type == "Psychic":
-                self.addWeaknesses("psychicDefending")
-            elif type == "Rock":
-                self.addWeaknesses("rockDefending")
-            elif type == "Steel":
-                self.addWeaknesses ("steelDefending")
-            elif type == "Water":
-                self.addWeaknesses("waterDefending")
-
+            typeStr = type.lower() + "Defending"
+            self.addWeaknesses(typeStr)
+            
      # FIXME - passing in key a better way
     def addWeaknesses(self, defending):
         self.weaknesses.append(defendingMatchups[defending])
