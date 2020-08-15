@@ -65,11 +65,7 @@ class Pokemon:
                         return True
         return False
 
-#########################################################################################
-#########################################################################################
-
-##########  Methods  ####################################################################
-#########################################################################################
+# TODO - is there a better place to include this?
 # Returns list of all pokemon found in the input string
 def getPokemonInStr(str, pokedex):
     # Parse out pokemon names
