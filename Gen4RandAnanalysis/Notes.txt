@@ -1,0 +1,17 @@
+Notes For Trying To Collect Data On Random Set Distribution:
+
+In order to collect enough data I need to find a way to automate using the random team generator and then parsing out the generated sets.
+
+Since Pokemon Showdown is open source I was able to find the source code -- https://github.com/smogon/pokemon-showdown
+
+I looked through the file structure and noticed that there are multiple similar files that look like they are used to generate the random teams. For example:
+https://github.com/smogon/pokemon-showdown/blob/master/data/random-teams.ts
+https://github.com/smogon/pokemon-showdown/blob/master/data/mods/gen4/random-teams.ts
+I wasn't sure which one to use, so I started adding console.log statements in to debug.
+I found that it wasn't obvious what was being run. I think it is possible that some of the files in the code are unused.
+
+Next what I did was look directly at the ./pokemon-showdown script. I noticed that there is an argument to generate a team:
+`./pokemon-showdown generate-team [FORMAT-ID [RANDOM-SEED]]`
+When run it produces an output like this:
+`Machamp||flameorb|guts|bulletpunch,closecombat,knockoff,facade||85,85,85,85,85,85||||84|]Groudon||leftovers|drought|earthquake,heavyslam,stealthrock,stoneedge||85,85,85,85,85,85|N|||72|]Poliwrath||lifeorb|swiftswim|darkestlariat,closecombat,raindance,liquidation||85,85,85,85,85,85||||84|]Whiscash||choiceband|oblivious|stoneedge,earthquake,liquidation,zenheadbutt||85,85,85,85,85,85||||88|]Reuniclus||lifeorb|magicguard|focusblast,trickroom,recover,psychic||85,,85,85,85,||,0,,,,0||84|]Talonflame||heavydutyboots|galewings|bravebird,uturn,flareblitz,roost||85,85,85,85,85,85||||82|`
+I think this is promising, but I'd like to verify that the generate-team argument will produce the exact same sets and distribution of sets as the actual game server will.
