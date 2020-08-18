@@ -6,8 +6,8 @@
 import subprocess
 
 # Configuration Variables
-NUM_TEAMS_GENERATED = 10
-OUTPUT_FILENAME = "gen4randoms-parsed-to-be-closer-to-json.output"
+NUM_TEAMS_GENERATED = int(102/6) * 297 # Should generate each pokemon 102 times since there are 297 pokemon and 6 pokemon per team
+OUTPUT_FILENAME = "gen4randoms-formatted-data.output"
 TEMP_FILENAME = "temp.output"
 
 # Simulate data
