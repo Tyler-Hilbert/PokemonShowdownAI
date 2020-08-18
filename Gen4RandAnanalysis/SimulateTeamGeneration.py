@@ -21,5 +21,5 @@ with open(TEMP_FILENAME, 'a') as out:
 with open(TEMP_FILENAME, 'r') as rfp:
   with open(OUTPUT_FILENAME, 'w') as wfp:
     for line in rfp:
-      if ',' in line or '{' in line:
+      if ',' in line or '{' in line or '}' in line:
         wfp.write(line)
