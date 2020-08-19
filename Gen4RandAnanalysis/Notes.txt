@@ -15,3 +15,13 @@ Next what I did was look directly at the ./pokemon-showdown script. I noticed th
 When run it produces an output like this:
 `Machamp||flameorb|guts|bulletpunch,closecombat,knockoff,facade||85,85,85,85,85,85||||84|]Groudon||leftovers|drought|earthquake,heavyslam,stealthrock,stoneedge||85,85,85,85,85,85|N|||72|]Poliwrath||lifeorb|swiftswim|darkestlariat,closecombat,raindance,liquidation||85,85,85,85,85,85||||84|]Whiscash||choiceband|oblivious|stoneedge,earthquake,liquidation,zenheadbutt||85,85,85,85,85,85||||88|]Reuniclus||lifeorb|magicguard|focusblast,trickroom,recover,psychic||85,,85,85,85,||,0,,,,0||84|]Talonflame||heavydutyboots|galewings|bravebird,uturn,flareblitz,roost||85,85,85,85,85,85||||82|`
 I think this is promising, but I'd like to verify that the generate-team argument will produce the exact same sets and distribution of sets as the actual game server will.
+
+***
+
+I consulted the developers of the software about what the best way to generate random sets identical to the server would be (https://www.smogon.com/forums/threads/gen-1-6-random-battles-complete-list-of-movepools-for-all-pok%C3%A9mon.3643472/post-8571743). I decided the best solution was to use the following command to generate the random sets:
+`./pokemon-showdown generate-team gen4randombattle`
+
+I was able to use Python to loop this command an arbitrary number of times and output all generated sets to a file. I decided that for an initial test I would simulate enough teams that statistically each Pokemon should be generated 102 times. This number may or may not have to be adjusted depending on if this is enough data to assume an accurate representation.
+
+The next problem I faced was that the output data was not in a Python friendly format.
+To tackle this problem I changed the `pokemon-showdown` file to output in a format that closer resembled a list (a python data structure) of dictionaries (a python data structure). I then wrote a post processing script that would finish turning the outputted data into a data structure native to Python. This allows the data to be loaded into a Python script by importing the file output from the post processor.
