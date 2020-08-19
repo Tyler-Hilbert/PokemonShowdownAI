@@ -1,6 +1,6 @@
 # Takes the outputted formatted data and does post processing to get the data in a format python understands
 
-FILE_TO_PROCESS = "OutputSubset.output"
+FILE_TO_PROCESS = "gen4randoms-formatted-data.output"
 OUT_FILE = "OutputData_data.py"
 
 with open(FILE_TO_PROCESS, 'r') as rfp:
