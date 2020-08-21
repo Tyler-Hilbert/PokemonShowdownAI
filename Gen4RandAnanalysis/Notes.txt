@@ -25,3 +25,8 @@ I was able to use Python to loop this command an arbitrary number of times and o
 
 The next problem I faced was that the output data was not in a Python friendly format.
 To tackle this problem I changed the `pokemon-showdown` file to output in a format that closer resembled a list (a python data structure) of dictionaries (a python data structure). I then wrote a post processing script that would finish turning the outputted data into a data structure native to Python. This allows the data to be loaded into a Python script by importing the file output from the post processor.
+
+
+***
+
+Eventually I started running into formatting inconsistencies where node would put data that was too long onto a separate line. At this point I decided that I would be better off writing a script that converted the raw output from the modified `pokemon-showdown` file to valid JSON rather than parsing it as plain text.
