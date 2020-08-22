@@ -1,3 +1,5 @@
+# This file is only used to verify the output is valid JSON
+
 import json
 
 f = open('FormattedData.json',)
