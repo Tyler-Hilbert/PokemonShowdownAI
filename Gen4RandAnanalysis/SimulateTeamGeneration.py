@@ -10,19 +10,11 @@ import subprocess
 
 # Configuration Variables
 NUM_TEAMS_GENERATED = int(102/6) * 297 # Should generate each pokemon 102 times since there are 297 pokemon and 6 pokemon per team
-OUTPUT_FILENAME = "gen4randoms-formatted-data.output"
-TEMP_FILENAME = "temp.output"
+OUTPUT_FILENAME = "raw.output"
+
+# FIXME -- delete original output file
 
 # Simulate data
-with open(TEMP_FILENAME, 'a') as out:
+with open(OUTPUT_FILENAME, 'a') as out:
     for i in range(NUM_TEAMS_GENERATED):
         subprocess.call(["./pokemon-showdown", "generate-team", "gen4randombattle"], stdout=out)
-
-
-# Parse out data that isn't needed to make data resemble json more closely
-# TODO - this is terribly inefficient
-with open(TEMP_FILENAME, 'r') as rfp:
-  with open(OUTPUT_FILENAME, 'w') as wfp:
-    for line in rfp:
-      if ',' in line or '{' in line or '}' in line:
-        wfp.write(line)
