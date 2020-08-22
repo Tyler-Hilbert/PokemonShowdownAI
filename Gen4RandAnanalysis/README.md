@@ -1,4 +1,4 @@
-To run the program:  
+To run the program -- THESE BECAME OUTDATED AFTER JSON REFACTOR!!!:  
 1) Clone the Pokemon Showdown repo https://github.com/smogon/pokemon-showdown  
 2) Copy `pokemon-showdown` and `SimulateTeamGeneration.py` into the root of the pokemon-showdown repo  
 3) Run `python3 SimulateTeamGeneration.py` within the pokemon-showdown root directory  

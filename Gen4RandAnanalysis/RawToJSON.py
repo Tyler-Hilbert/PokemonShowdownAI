@@ -1,10 +1,14 @@
 # Takes raw output piped from the modified pokemon-showdown file and converts it to valid json
 
 FILE_TO_PROCESS = "raw.output"
+TEMP_FILE = "temp.psuedojson" # USED FOR DEBUGGING
 OUT_FILE = "FormattedData.json"
 
+
+lines = []
+
 with open(FILE_TO_PROCESS, 'r') as rfp:
-    with open(OUT_FILE, 'w') as wfp:
+    with open(TEMP_FILE, 'w') as wfp:
         for line in rfp:
             # FIXME - verify none of these will ever be part of a Pokemon name or other piece of data
             line = line.replace("name:", '"name":')
@@ -33,5 +37,19 @@ with open(FILE_TO_PROCESS, 'r') as rfp:
             line = line.replace("'", '"')
 
             wfp.write(line)
+            lines.append(line)
 
-# FIXME - very last comma needs to be deleted
+
+index = 0
+while index != len(lines)-1:
+    if ']' in lines[index] and '[' in lines[index+1]: # Remove every 6th open close bracket
+        lines.pop(index+1)
+        lines.pop(index)
+    index += 1
+
+lines[-2] = "}" # Remove comma
+
+
+with open(OUT_FILE, 'w') as wfp:
+    for l in lines:
+        wfp.write(l)
