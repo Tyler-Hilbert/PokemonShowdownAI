@@ -27,6 +27,7 @@ with open(FILE_TO_PROCESS, 'r') as rfp:
             line = line.replace("item:", '"item":')
             line = line.replace("level:", '"level":')
             line = line.replace("shiny:", '"shiny":')
+            line = line.replace("gigantamax:", '"gigantamax":')
 
             # This is a quick hack that fixes the bug in SimulateTeamGeneration.py where every 6th pokemon is missing a ,
             line = line.replace("}", "},")

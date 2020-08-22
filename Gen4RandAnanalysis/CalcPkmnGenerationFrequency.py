@@ -30,3 +30,5 @@ for i in range (len(nameAndCountLst)):
     # FIXME - verify this hits the last case
     s = nameAndCountLst[i]['name'] + " was generated " + str(nameAndCountLst[i]['count']) + " out of " + str(len(data))
     print (s)
+
+print (len(nameAndCountLst))
