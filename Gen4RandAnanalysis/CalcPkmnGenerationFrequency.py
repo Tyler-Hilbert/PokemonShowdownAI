@@ -3,6 +3,8 @@
 # FIXME - verify that calculated numbers are correct
 
 # FIXME - pokemon like Deoxys have many forms but all get counted as one pokemon
+# FIXME - rotom
+# FIXME - alola
 
 import json
 
