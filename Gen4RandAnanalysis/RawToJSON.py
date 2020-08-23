@@ -11,14 +11,16 @@ OUT_FILE = "FormattedData.json"
 # FIXME - Urshifu
 # FIXME - Sirfetch’d
 # FIXME: Type: Null
-#   Tapu Bulu, Tapu Lele, kommo-o, tapu fini, tapu koko 
+#   Tapu Bulu, Tapu Lele, kommo-o, tapu fini, tapu koko
 
 lines = []
 
 with open(FILE_TO_PROCESS, 'r') as rfp:
     with open(TEMP_FILE, 'w') as wfp:
         for line in rfp:
-            # FIXME - verify none of these will ever be part of a Pokemon name or other piece of data
+            # FIXME - verify none of these parsings will ever mess up data
+
+            # Replace Keys
             line = line.replace("name:", '"name":')
             line = line.replace("species:", '"species":')
             line = line.replace("gender:", '"gender":')
@@ -40,6 +42,18 @@ with open(FILE_TO_PROCESS, 'r') as rfp:
             # This is a quick hack that fixes the bug in SimulateTeamGeneration.py where every 6th pokemon is missing a ,
             line = line.replace("}", "},")
             line = line.replace("},,", "},")
+
+            # Replace pokemon names that are different in the random set generation than the
+            # TODO - is this programmed somewhere in the source code that I can use rather than writting myself?
+            line = line.replace("Mr. Mime", "mrmime")
+            line = line.replace("Mr. Rime", "mrrime")
+            line = line.replace("Tapu Lele", "tapulele")
+            line = line.replace("Tapu Fini", "tapufini")
+            line = line.replace("Tapu Koko", "tapukoko")
+            line = line.replace("Tapu Bulu", "tapubulu")
+            line = line.replace("Kommo-o", "kommoo")
+            line = line.replace("Type: Null", "typenull")
+            line = line.replace("Ho-Oh", "hooh")
 
             # Replace '  with "
             # FIXME - verify that the ' can just be replaced without causing any problems
