@@ -30,3 +30,9 @@ To tackle this problem I changed the `pokemon-showdown` file to output in a form
 ***
 
 Eventually I started running into formatting inconsistencies where node would put data that was too long onto a separate line. At this point I decided that I would be better off writing a script that converted the raw output from the modified `pokemon-showdown` file to valid JSON rather than parsing it as plain text.
+
+
+***
+
+The next issue I ran into was how to analyze the randomly generated sets. I don't have a stats background, so I don't know how much data I need or what to do with it. It was decided at first to run the simulation long enough to hit each pokemon 102 times, but I noticed that some of the pokemon counts drifted by more than 30. I wasn't sure if this was because the sample size wasn't big enough or they were actually being generated 30% less often. I decided to up the simulation to be large enough that each pokemon should statistically be generated 252 times. There is no basis for this number, it just seems large enough to get an accurate sample and the computation time is starting to become more of a nuisance to work with if it is much larger than this.
+I also don't know what tools I should use to analyze the set. Currently I'm just doing counts of variables such as number of times a pokemon and each type is generated. I also compute each unique set for each pokemon. Long term I need to figure out what I actually need to analyze.
