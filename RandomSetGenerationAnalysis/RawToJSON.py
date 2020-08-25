@@ -4,15 +4,6 @@ FILE_TO_PROCESS = "raw.output"
 TEMP_FILE = "temp.psuedojson" # USED FOR DEBUGGING
 OUT_FILE = "FormattedData.json"
 
-
-# FIXME - Figured out how to process Mr. Mime => mrmime
-# FIXME - Mr. Rime => mrrime
-# FIXME - HO-oh => hooh
-# FIXME - Urshifu
-# FIXME - Sirfetch’d
-# FIXME: Type: Null
-#   Tapu Bulu, Tapu Lele, kommo-o, tapu fini, tapu koko
-
 lines = []
 
 with open(FILE_TO_PROCESS, 'r') as rfp:
