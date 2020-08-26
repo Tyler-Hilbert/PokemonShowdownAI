@@ -1,0 +1,1 @@
+{"name": "Silvally", "species": "Silvally-Ghost", "gender": "N", "moves": ["multiattack", "partingshot", "swordsdance", "xscissor"], "ability": "RKS System", "evs": {"hp": 85, "atk": 85, "def": 85, "spa": 85, "spd": 85, "spe": 85}, "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "item": "Ghost Memory", "level": 86, "shiny": false, "gigantamax": false}

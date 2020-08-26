@@ -22,7 +22,7 @@ f.close()
 
 
 for pkmn in data:
-    filename = OUT_FILE_PATH + pkmn['name']
+    filename = OUT_FILE_PATH + pkmn['species']
     with open(filename, 'a') as wfp:
         pkmn['moves'].sort()
         wfp.write(json.dumps(pkmn))
