@@ -7,12 +7,14 @@
 # TODO - should this file not only simulate but also format the data into a usable output? It would make it easier to use from a user standpoint since only one script would need to be run. It would make development slower though since it would need to resimulate all data just to make changes to the parsing algorithm.
 
 import subprocess
+import os
 
 # Configuration Variables
 NUM_TEAMS_GENERATED = int(252/6) * 375 # Should generate each pokemon 252 times since there are 375 pokemon and 6 pokemon per team
 OUTPUT_FILENAME = "raw.output"
 
-# FIXME -- delete original output file
+# Backup previous 1 simulation in OUTPUT_FILENAME
+os.rename(OUTPUT_FILENAME, (OUTPUT_FILENAME + ".old"))
 
 # Simulate data
 with open(OUTPUT_FILENAME, 'a') as out:
