@@ -4,6 +4,8 @@
 
 # FIXME - how to deal with Arceus
 
+# FIXME - are Alolas correct?
+
 import sys
 sys.path.insert(0, '../../SelectLead')
 import Pokemon

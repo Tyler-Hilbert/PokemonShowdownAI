@@ -1,3 +1,0 @@
-This is the output of my first script for computing each random set for Gen 8 Random Battles.
-This may not be the most up to date output. The repo is here: https://github.com/Tyler-Hilbert/PokemonShowdownAI and may have more up to date information.
-I provide no guarantee to the accuracy of my data.
