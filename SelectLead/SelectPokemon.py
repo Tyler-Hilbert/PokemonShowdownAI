@@ -1,25 +1,31 @@
-# Selects best pokemon to switch into given 2 strings that have all pokemon names
-# The selection is done by finding the ally pokemon with the fewest number of weaknesses against the foe's pokemon types
+# Selects best pokemon to switch into after downloading the .html page to this directory
 
 import re
 import Pokedex
 import Pokemon
+from bs4 import BeautifulSoup
+import glob, os
+import sys
 
-##########  INPUT VARIABLES  ############################################################
-#########################################################################################
-# Enter a string that contains the name of all your pokemon (can contain non-pokemon characters/words and isn't formatted)
-allyPkmnNameLst = "jolteon bisharp espeon leafeon vaporeon flareon"
-# Enter a string that contains the name of all your opponent pokemon (can contain non-pokemon characters/words and isn't formatted)
-foePkmnNameLst = "Incineroar / Skarmory / Kyurem / Mamoswine / Tyranitar / Celebi"
-# FIXME - "Silvally-*" could be parsed wrong. Check for other odd cases on the name
+if len(glob.glob("*.html")) != 1:
+    sys.exit("Error: Exactly 1 html file should be in this directory")
+
+filename = glob.glob("*html")[0]
+f = open(filename, encoding="utf8")
+soup = BeautifulSoup(f, 'html.parser')
+f.close()
+
+teams = []
+for tag in soup.findAll("em"):
+    text = str(tag)
+    if " / " in text:
+        teams.append(text)
+
+allyPkmnNameLst = teams[0]
+foePkmnNameLst = teams[1]
+
 # FIXME - galar pokemon don't work either
 # FIXME - do alola work? Maybe I just have to filter out '-'
-#########################################################################################
-#########################################################################################
-
-
-########## MAIN  ####################################################################
-#########################################################################################
 
 pokedex = Pokedex.Pokedex()
 
