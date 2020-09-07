@@ -1,6 +1,6 @@
 # Creates a file for each pokemon with each generated set
 
-# FIXME - Verify that no sets accidently got deleted and that there are no duplicates
+# TODO - Verify that no sets accidently got deleted and that there are no duplicates
 
 import json
 import os
