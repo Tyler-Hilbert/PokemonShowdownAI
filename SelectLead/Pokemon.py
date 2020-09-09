@@ -30,12 +30,12 @@ class Pokemon:
             typeStr = type.lower() + "Defending"
             self.addStrength(typeStr)
 
-     # FIXME - passing in key a better way
+     # TODO - passing in key a better way
     def addWeakness(self, defending):
         self.weaknesses.append(TypeMatchups_data.defendingMatchups[defending])
         # FIXME - adding weakness (ultimately this should be calculated on the spot rather than a variable)
 
-     # FIXME - passing in key a better way
+     # TODO - passing in key a better way
     def addStrength(self, defending):
         self.strengths.append(TypeMatchups_data.defendingMatchups[defending])
         # FIXME - adding weakness (ultimately this should be calculated on the spot rather than a variable)
@@ -69,11 +69,11 @@ class Pokemon:
 # Returns list of all pokemon found in the input string
 def getPokemonInStr(str, pokedex):
     # Parse out pokemon names
-    strWords = re.split('[^a-zA-Z]', str)
-    # Lower Case Words
+    strWords = re.split('[^a-zA-Z\-]', str)
+    # Lower Case and remove -
     strWordsLwr = []
-    for w  in strWords:
-        strWordsLwr.append(w.lower())
+    for w in strWords:
+        strWordsLwr.append(w.lower().replace('-', ''))
     # Remove Duplicates
     potentialNameStr = []
     [potentialNameStr.append(x) for x in strWordsLwr if x not in potentialNameStr]

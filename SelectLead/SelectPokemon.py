@@ -1,4 +1,4 @@
-# Selects best pokemon to switch into after downloading the .html page to this directory
+# Selects best pokemon to switch into after downloading the .htm page to this directory
 
 import re
 import Pokedex
@@ -7,31 +7,30 @@ from bs4 import BeautifulSoup
 import glob, os
 import sys
 
-if len(glob.glob("*.html")) != 1:
-    sys.exit("Error: Exactly 1 html file should be in this directory")
+# Verify there is a file to read
+if len(glob.glob("*.htm")) != 1:
+    sys.exit("Error: Exactly 1 htm file should be in this directory")
 
-filename = glob.glob("*html")[0]
+# Read file
+filename = glob.glob("*htm")[0]
 f = open(filename, encoding="utf8")
 soup = BeautifulSoup(f, 'html.parser')
 f.close()
 
+# Parse out pokemon
 teams = []
 for tag in soup.findAll("em"):
     text = str(tag)
     if " / " in text:
         teams.append(text)
-
 allyPkmnNameLst = teams[0]
 foePkmnNameLst = teams[1]
-
-# FIXME - galar pokemon don't work either
 # FIXME - do alola work? Maybe I just have to filter out '-'
-
 pokedex = Pokedex.Pokedex()
-
 foePkmnLst = Pokemon.getPokemonInStr(foePkmnNameLst, pokedex)
 allyPkmnLst = Pokemon.getPokemonInStr(allyPkmnNameLst, pokedex)
 
+# Calculate
 highestNet = -99 # Arbitrary low number that will always have matchups with higher net
 highestNetName = "PLACEHOLDER"
 
