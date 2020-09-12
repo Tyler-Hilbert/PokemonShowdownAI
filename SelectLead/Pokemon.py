@@ -65,6 +65,22 @@ class Pokemon:
                         return True
         return False
 
+    # Returns outcome of battle.
+    # The higher the score the better.
+    # Negative score means battle is in opponents favor.
+    # 0 means tie.
+    def battle(self, attackingPokemon):
+        score = 0
+        if self.isWeak(attackingPokemon):
+            score -= 1
+        if self.isStrong(attackingPokemon):
+            score += 1
+        if attackingPokemon.isWeak(self):
+            score += 1
+        if attackingPokemon.isStrong(self):
+            score -= 1
+        return score
+
 # TODO - is there a better place to include this?
 # Returns list of all pokemon found in the input string
 def getPokemonInStr(str, pokedex):
