@@ -33,11 +33,46 @@ foePkmnLst = Pokemon.getPokemonInStr(foePkmnNameLst, pokedex)
 allyPkmnLst = Pokemon.getPokemonInStr(allyPkmnNameLst, pokedex)
 
 # Calculate
-highestNet = -99 # Arbitrary low number that will always have matchups with higher net
-highestNetName = "PLACEHOLDER"
+foeTotalScore = 0
+allyTotalScore = 0
+
+highestScore = -99 # Arbitrary low number that will always have matchups with lower score
+highestScoreName = "PLACEHOLDER"
 for allyPkmn in allyPkmnLst:
     print (allyPkmn.toString())
     score = 0
     for foePkmn in foePkmnLst:
         score += allyPkmn.battle(foePkmn)
+    # TODO - handle score ties
+    if score > highestScore:
+        highestScoreName = allyPkmn.toString()
+        highestScore = score
+    allyTotalScore += score
     print (score)
+s = "Your best move is " + highestScoreName + "\n"
+s += "Ally Total Score " + str(allyTotalScore) + "\n"
+print (s)
+
+highestScore = -99 # Arbitrary low number that will always have matchups with lower score
+highestScoreName = "PLACEHOLDER"
+for foePkmn in foePkmnLst:
+    print (foePkmn.toString())
+    score = 0
+    for allyPkmn in allyPkmnLst:
+        score += foePkmn.battle(allyPkmn)
+    # TODO - handle score ties
+    if score > highestScore:
+        highestScoreName = foePkmn.toString()
+        highestScore = score
+    foeTotalScore += score
+    print (score)
+s = "Foe best move is " + highestScoreName + "\n"
+s += "Foe Total Score " + str(foeTotalScore) + "\n"
+print (s)
+
+if (allyTotalScore > foeTotalScore):
+    print ("Ally predicted to win")
+elif (allyTotalScore < foeTotalScore):
+    print ("Foe team predicted to win")
+else:
+    print ("equal chances of winning")
