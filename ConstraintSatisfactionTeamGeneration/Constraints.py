@@ -5,7 +5,7 @@ sys.path.insert(1, '../SelectLead')
 import Pokedex
 import Pokemon
 
-import StringIO
+from io import StringIO
 
 
 dataRaw = """
@@ -132,7 +132,7 @@ C- Rank
  Snorlax
 """
 
-data = StringIO.StringIO(dataRaw)
+data = StringIO(dataRaw)
 
 # Format data
 pokedex = Pokedex.Pokedex()
