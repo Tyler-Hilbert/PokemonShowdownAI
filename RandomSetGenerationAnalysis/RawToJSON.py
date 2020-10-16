@@ -8,8 +8,6 @@ lines = []
 # Read and convert piped output from pokemon-showdown
 with open(FILE_TO_PROCESS, 'r') as rfp:
     for line in rfp:
-        # TODO - verify none of these parsings will ever mess up data
-
         # Replace Keys
         line = line.replace("name:", '"name":')
         line = line.replace("species:", '"species":')
@@ -45,7 +43,6 @@ with open(FILE_TO_PROCESS, 'r') as rfp:
         line = line.replace("Ho-Oh", "hooh")
 
         # Replace '  with "
-        # TODO - verify that the ' can just be replaced without causing any problems
         line = line.replace("'", '"')
 
         lines.append(line)
