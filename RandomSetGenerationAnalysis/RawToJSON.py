@@ -1,7 +1,7 @@
 # Takes raw output piped from the modified pokemon-showdown file and converts it to valid json
 
-FILE_TO_PROCESS = "raw.output"
-OUT_FILE = "FormattedData.json"
+FILE_TO_PROCESS = "Data/raw.output"
+OUT_FILE = "Data/FormattedData.json"
 
 lines = []
 

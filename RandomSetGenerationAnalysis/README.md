@@ -2,7 +2,7 @@ To run the program:
 1) Clone the Pokemon Showdown repo https://github.com/smogon/pokemon-showdown  
 2) Copy `pokemon-showdown` and `SimulateTeamGeneration.py` into the root of the pokemon-showdown repo  
 3) Run `python3 SimulateTeamGeneration.py` within the pokemon-showdown root directory  
-4) Copy the simulated data file `raw.output` from the root directory of pokemon-showdown to the root directory of this repo  
+4) Copy the simulated data file `raw.output` from the root directory of pokemon-showdown to the `Data` directory of this project  
 5) Run `python3 RawtoJSON.py` to convert the outputted simulated data into a valid JSON format
 6) To analyze the unique sets for each pokemon run `python3 WriteGeneratedPokemon.py`. This will output the data into the subdirectory GeneratedGen8Pokemon  
 

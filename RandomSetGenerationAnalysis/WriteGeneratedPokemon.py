@@ -7,7 +7,7 @@ import os
 
 # Input variables
 OUT_FILE_PATH = "GeneratedGen8Pokemon/"
-DATA_FILE = "FormattedData.json"
+DATA_FILE = "Data/FormattedData.json"
 TEMP_FILE = OUT_FILE_PATH + "temp"
 
 # Read json output from RawToJSON.py
