@@ -1,2 +1,2 @@
 source for icons:
-https://github.com/msikma/pokesprite/tree/master/icons/pokemon/regular
+https://github.com/msikma/pokesprite/tree/master/pokemon-gen8/regular

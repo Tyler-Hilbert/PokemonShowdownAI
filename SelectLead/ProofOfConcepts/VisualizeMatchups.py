@@ -51,6 +51,8 @@ teamNum = 0
 for team in [allyPkmnLst, foePkmnLst]:
     for i in range(len(team)):
         name = team[i].name.lower().replace("alola", "-alola")
+        name = name.replace("galar", "-galar")
+        name = name.replace("resolute", "-resolute")
         name = name.replace("fan", "-fan")
         name = name.replace("frost", "-frost")
         name = name.replace("heat", "-heat")

@@ -1,0 +1,1312 @@
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../ProofOfConcepts/VisualizeMatchups.py
+	modified:   aaa-icon_sources.txt
+	modified:   abomasnow-mega.png
+	modified:   abomasnow.png
+	modified:   abra.png
+	modified:   absol-mega.png
+	modified:   absol.png
+	modified:   accelgor.png
+	modified:   aegislash-blade.png
+	modified:   aegislash.png
+	modified:   aerodactyl-mega.png
+	modified:   aerodactyl.png
+	modified:   aggron-mega.png
+	modified:   aggron.png
+	modified:   aipom.png
+	modified:   alakazam-mega.png
+	modified:   alakazam.png
+	modified:   alomomola.png
+	modified:   altaria-mega.png
+	modified:   altaria.png
+	modified:   amaura.png
+	modified:   ambipom.png
+	modified:   amoonguss.png
+	modified:   ampharos-mega.png
+	modified:   ampharos.png
+	modified:   anorith.png
+	modified:   araquanid.png
+	modified:   arbok.png
+	modified:   arcanine.png
+	modified:   arceus-bug.png
+	modified:   arceus-dark.png
+	modified:   arceus-dragon.png
+	modified:   arceus-electric.png
+	modified:   arceus-fairy.png
+	modified:   arceus-fighting.png
+	modified:   arceus-fire.png
+	modified:   arceus-flying.png
+	modified:   arceus-ghost.png
+	modified:   arceus-grass.png
+	modified:   arceus-ground.png
+	modified:   arceus-ice.png
+	modified:   arceus-poison.png
+	modified:   arceus-psychic.png
+	modified:   arceus-rock.png
+	modified:   arceus-steel.png
+	modified:   arceus-water.png
+	modified:   arceus.png
+	modified:   archen.png
+	modified:   archeops.png
+	modified:   ariados.png
+	modified:   armaldo.png
+	modified:   aromatisse.png
+	modified:   aron.png
+	modified:   articuno.png
+	modified:   audino-mega.png
+	modified:   audino.png
+	modified:   aurorus.png
+	modified:   avalugg.png
+	modified:   axew.png
+	modified:   azelf.png
+	modified:   azumarill.png
+	modified:   azurill.png
+	modified:   bagon.png
+	modified:   baltoy.png
+	modified:   banette-mega.png
+	modified:   banette.png
+	modified:   barbaracle.png
+	modified:   barboach.png
+	modified:   basculin-blue-striped.png
+	modified:   basculin.png
+	modified:   bastiodon.png
+	modified:   bayleef.png
+	modified:   beartic.png
+	modified:   beautifly.png
+	modified:   beedrill-mega.png
+	modified:   beedrill.png
+	modified:   beheeyem.png
+	modified:   beldum.png
+	modified:   bellossom.png
+	modified:   bellsprout.png
+	modified:   bergmite.png
+	modified:   bewear.png
+	modified:   bibarel.png
+	modified:   bidoof.png
+	modified:   binacle.png
+	modified:   bisharp.png
+	modified:   blacephalon.png
+	modified:   blastoise-mega.png
+	modified:   blastoise.png
+	modified:   blaziken-mega.png
+	modified:   blaziken.png
+	modified:   blissey.png
+	modified:   blitzle.png
+	modified:   boldore.png
+	modified:   bonsly.png
+	modified:   bouffalant.png
+	modified:   bounsweet.png
+	modified:   braixen.png
+	modified:   braviary.png
+	modified:   breloom.png
+	modified:   brionne.png
+	modified:   bronzong.png
+	modified:   bronzor.png
+	modified:   bruxish.png
+	modified:   budew.png
+	modified:   buizel.png
+	modified:   bulbasaur.png
+	modified:   buneary.png
+	modified:   bunnelby.png
+	modified:   burmy-sandy.png
+	modified:   burmy-trash.png
+	modified:   burmy.png
+	modified:   butterfree.png
+	modified:   buzzwole.png
+	modified:   cacnea.png
+	modified:   cacturne.png
+	modified:   camerupt-mega.png
+	modified:   camerupt.png
+	modified:   carbink.png
+	modified:   carnivine.png
+	modified:   carracosta.png
+	modified:   carvanha.png
+	modified:   cascoon.png
+	modified:   castform-rainy.png
+	modified:   castform-snowy.png
+	modified:   castform-sunny.png
+	modified:   castform.png
+	modified:   caterpie.png
+	modified:   celebi.png
+	modified:   celesteela.png
+	modified:   chandelure.png
+	modified:   chansey.png
+	modified:   charizard-mega-x.png
+	modified:   charizard-mega-y.png
+	modified:   charizard.png
+	modified:   charjabug.png
+	modified:   charmander.png
+	modified:   charmeleon.png
+	modified:   chatot.png
+	modified:   cherrim-sunshine.png
+	modified:   cherrim.png
+	modified:   cherubi.png
+	modified:   chesnaught.png
+	modified:   chespin.png
+	modified:   chikorita.png
+	modified:   chimchar.png
+	modified:   chimecho.png
+	modified:   chinchou.png
+	modified:   chingling.png
+	modified:   cinccino.png
+	modified:   clamperl.png
+	modified:   clauncher.png
+	modified:   clawitzer.png
+	modified:   claydol.png
+	modified:   clefable.png
+	modified:   clefairy.png
+	modified:   cleffa.png
+	modified:   cloyster.png
+	modified:   cobalion.png
+	modified:   cofagrigus.png
+	modified:   combee.png
+	modified:   combusken.png
+	modified:   comfey.png
+	modified:   conkeldurr.png
+	modified:   corphish.png
+	modified:   corsola.png
+	modified:   cosmoem.png
+	modified:   cosmog.png
+	modified:   cottonee.png
+	modified:   crabominable.png
+	modified:   crabrawler.png
+	modified:   cradily.png
+	modified:   cranidos.png
+	modified:   crawdaunt.png
+	modified:   cresselia.png
+	modified:   croagunk.png
+	modified:   crobat.png
+	modified:   croconaw.png
+	modified:   crustle.png
+	modified:   cryogonal.png
+	modified:   cubchoo.png
+	modified:   cubone.png
+	modified:   cutiefly.png
+	modified:   cyndaquil.png
+	modified:   darkrai.png
+	modified:   darmanitan-zen.png
+	modified:   darmanitan.png
+	modified:   dartrix.png
+	modified:   darumaka.png
+	modified:   decidueye.png
+	modified:   dedenne.png
+	modified:   deerling-autumn.png
+	modified:   deerling-summer.png
+	modified:   deerling-winter.png
+	modified:   deerling.png
+	modified:   deino.png
+	modified:   delcatty.png
+	modified:   delibird.png
+	modified:   delphox.png
+	modified:   deoxys-attack.png
+	modified:   deoxys-defense.png
+	modified:   deoxys-speed.png
+	modified:   deoxys.png
+	modified:   dewgong.png
+	modified:   dewott.png
+	modified:   dewpider.png
+	modified:   dhelmise.png
+	modified:   dialga.png
+	modified:   diancie-mega.png
+	modified:   diancie.png
+	modified:   diggersby.png
+	modified:   diglett-alola.png
+	modified:   diglett.png
+	modified:   ditto.png
+	modified:   dodrio.png
+	modified:   doduo.png
+	modified:   donphan.png
+	modified:   doublade.png
+	modified:   dragalge.png
+	modified:   dragonair.png
+	modified:   dragonite.png
+	modified:   drampa.png
+	modified:   drapion.png
+	modified:   dratini.png
+	modified:   drifblim.png
+	modified:   drifloon.png
+	modified:   drilbur.png
+	modified:   drowzee.png
+	modified:   druddigon.png
+	modified:   ducklett.png
+	modified:   dugtrio-alola.png
+	modified:   dugtrio.png
+	modified:   dunsparce.png
+	modified:   duosion.png
+	modified:   durant.png
+	modified:   dusclops.png
+	modified:   dusknoir.png
+	modified:   duskull.png
+	modified:   dustox.png
+	modified:   dwebble.png
+	modified:   eelektrik.png
+	modified:   eelektross.png
+	modified:   eevee-starter.png
+	modified:   eevee.png
+	modified:   ekans.png
+	modified:   electabuzz.png
+	modified:   electivire.png
+	modified:   electrike.png
+	modified:   electrode.png
+	modified:   elekid.png
+	modified:   elgyem.png
+	modified:   emboar.png
+	modified:   emolga.png
+	modified:   empoleon.png
+	modified:   entei.png
+	modified:   escavalier.png
+	modified:   espeon.png
+	modified:   espurr.png
+	modified:   excadrill.png
+	modified:   exeggcute.png
+	modified:   exeggutor-alola.png
+	modified:   exeggutor.png
+	modified:   exploud.png
+	modified:   farfetchd.png
+	modified:   fearow.png
+	modified:   feebas.png
+	modified:   fennekin.png
+	modified:   feraligatr.png
+	modified:   ferroseed.png
+	modified:   ferrothorn.png
+	modified:   finneon.png
+	modified:   flaaffy.png
+	modified:   flabebe-blue.png
+	modified:   flabebe-orange.png
+	modified:   flabebe-white.png
+	modified:   flabebe-yellow.png
+	modified:   flabebe.png
+	modified:   flareon.png
+	modified:   fletchinder.png
+	modified:   fletchling.png
+	modified:   floatzel.png
+	modified:   floette-blue.png
+	modified:   floette-eternal.png
+	modified:   floette-orange.png
+	modified:   floette-white.png
+	modified:   floette-yellow.png
+	modified:   floette.png
+	modified:   florges-blue.png
+	modified:   florges-orange.png
+	modified:   florges-white.png
+	modified:   florges-yellow.png
+	modified:   florges.png
+	modified:   flygon.png
+	modified:   fomantis.png
+	modified:   foongus.png
+	modified:   forretress.png
+	modified:   fraxure.png
+	modified:   frillish.png
+	modified:   froakie.png
+	modified:   frogadier.png
+	modified:   froslass.png
+	modified:   furfrou-dandy.png
+	modified:   furfrou-debutante.png
+	modified:   furfrou-diamond.png
+	modified:   furfrou-heart.png
+	modified:   furfrou-kabuki.png
+	modified:   furfrou-la-reine.png
+	modified:   furfrou-matron.png
+	modified:   furfrou-pharaoh.png
+	modified:   furfrou-star.png
+	modified:   furfrou.png
+	modified:   furret.png
+	modified:   gabite.png
+	modified:   gallade-mega.png
+	modified:   gallade.png
+	modified:   galvantula.png
+	modified:   garbodor.png
+	modified:   garchomp-mega.png
+	modified:   garchomp.png
+	modified:   gardevoir-mega.png
+	modified:   gardevoir.png
+	modified:   gastly.png
+	modified:   gastrodon-east.png
+	modified:   gastrodon.png
+	modified:   genesect-burn.png
+	modified:   genesect-chill.png
+	modified:   genesect-douse.png
+	modified:   genesect-shock.png
+	modified:   genesect-standard.png
+	modified:   genesect.png
+	modified:   gengar-mega.png
+	modified:   gengar.png
+	modified:   geodude-alola.png
+	modified:   geodude.png
+	modified:   gible.png
+	modified:   gigalith.png
+	modified:   girafarig.png
+	modified:   giratina-origin.png
+	modified:   giratina.png
+	modified:   glaceon.png
+	modified:   glalie-mega.png
+	modified:   glalie.png
+	modified:   glameow.png
+	modified:   gligar.png
+	modified:   gliscor.png
+	modified:   gloom.png
+	modified:   gogoat.png
+	modified:   golbat.png
+	modified:   goldeen.png
+	modified:   golduck.png
+	modified:   golem-alola.png
+	modified:   golem.png
+	modified:   golett.png
+	modified:   golisopod.png
+	modified:   golurk.png
+	modified:   goodra.png
+	modified:   goomy.png
+	modified:   gorebyss.png
+	modified:   gothita.png
+	modified:   gothitelle.png
+	modified:   gothorita.png
+	modified:   gourgeist-large.png
+	modified:   gourgeist-small.png
+	modified:   gourgeist-super.png
+	modified:   gourgeist.png
+	modified:   granbull.png
+	modified:   graveler-alola.png
+	modified:   graveler.png
+	modified:   greninja-ash.png
+	modified:   greninja.png
+	modified:   grimer-alola.png
+	modified:   grimer.png
+	modified:   grotle.png
+	modified:   groudon-primal.png
+	modified:   groudon.png
+	modified:   grovyle.png
+	modified:   growlithe.png
+	modified:   grubbin.png
+	modified:   grumpig.png
+	modified:   gulpin.png
+	modified:   gumshoos.png
+	modified:   gurdurr.png
+	modified:   guzzlord.png
+	modified:   gyarados-mega.png
+	modified:   gyarados.png
+	modified:   hakamo-o.png
+	modified:   happiny.png
+	modified:   hariyama.png
+	modified:   haunter.png
+	modified:   hawlucha.png
+	modified:   haxorus.png
+	modified:   heatmor.png
+	modified:   heatran.png
+	modified:   heliolisk.png
+	modified:   helioptile.png
+	modified:   heracross-mega.png
+	modified:   heracross.png
+	modified:   herdier.png
+	modified:   hippopotas.png
+	modified:   hippowdon.png
+	modified:   hitmonchan.png
+	modified:   hitmonlee.png
+	modified:   hitmontop.png
+	modified:   ho-oh.png
+	modified:   honchkrow.png
+	modified:   honedge.png
+	modified:   hoopa-unbound.png
+	modified:   hoopa.png
+	modified:   hoothoot.png
+	modified:   hoppip.png
+	modified:   horsea.png
+	modified:   houndoom-mega.png
+	modified:   houndoom.png
+	modified:   houndour.png
+	modified:   huntail.png
+	modified:   hydreigon.png
+	modified:   hypno.png
+	modified:   igglybuff.png
+	modified:   illumise.png
+	modified:   incineroar.png
+	modified:   infernape.png
+	modified:   inkay.png
+	modified:   ivysaur.png
+	modified:   jangmo-o.png
+	modified:   jellicent.png
+	modified:   jigglypuff.png
+	modified:   jirachi.png
+	modified:   jolteon.png
+	modified:   joltik.png
+	modified:   jumpluff.png
+	modified:   jynx.png
+	modified:   kabuto.png
+	modified:   kabutops.png
+	modified:   kadabra.png
+	modified:   kakuna.png
+	modified:   kangaskhan-mega.png
+	modified:   kangaskhan.png
+	modified:   karrablast.png
+	modified:   kartana.png
+	modified:   kecleon.png
+	modified:   keldeo-resolute.png
+	modified:   keldeo.png
+	modified:   kingdra.png
+	modified:   kingler.png
+	modified:   kirlia.png
+	modified:   klang.png
+	modified:   klefki.png
+	modified:   klink.png
+	modified:   klinklang.png
+	modified:   koffing.png
+	modified:   komala.png
+	modified:   kommo-o.png
+	modified:   krabby.png
+	modified:   kricketot.png
+	modified:   kricketune.png
+	modified:   krokorok.png
+	modified:   krookodile.png
+	modified:   kyogre-primal.png
+	modified:   kyogre.png
+	modified:   kyurem-black.png
+	modified:   kyurem-white.png
+	modified:   kyurem.png
+	modified:   lairon.png
+	modified:   lampent.png
+	modified:   landorus-therian.png
+	modified:   landorus.png
+	modified:   lanturn.png
+	modified:   lapras.png
+	modified:   larvesta.png
+	modified:   larvitar.png
+	modified:   latias-mega.png
+	modified:   latias.png
+	modified:   latios-mega.png
+	modified:   latios.png
+	modified:   leafeon.png
+	modified:   leavanny.png
+	modified:   ledian.png
+	modified:   ledyba.png
+	modified:   lickilicky.png
+	modified:   lickitung.png
+	modified:   liepard.png
+	modified:   lileep.png
+	modified:   lilligant.png
+	modified:   lillipup.png
+	modified:   linoone.png
+	modified:   litleo.png
+	modified:   litten.png
+	modified:   litwick.png
+	modified:   lombre.png
+	modified:   lopunny-mega.png
+	modified:   lopunny.png
+	modified:   lotad.png
+	modified:   loudred.png
+	modified:   lucario-mega.png
+	modified:   lucario.png
+	modified:   ludicolo.png
+	modified:   lugia.png
+	modified:   lumineon.png
+	modified:   lunala.png
+	modified:   lunatone.png
+	modified:   lurantis.png
+	modified:   luvdisc.png
+	modified:   luxio.png
+	modified:   luxray.png
+	modified:   lycanroc-dusk.png
+	modified:   lycanroc-midnight.png
+	modified:   lycanroc.png
+	modified:   machamp.png
+	modified:   machoke.png
+	modified:   machop.png
+	modified:   magby.png
+	modified:   magcargo.png
+	modified:   magearna-original.png
+	modified:   magearna.png
+	modified:   magikarp.png
+	modified:   magmar.png
+	modified:   magmortar.png
+	modified:   magnemite.png
+	modified:   magneton.png
+	modified:   magnezone.png
+	modified:   makuhita.png
+	modified:   malamar.png
+	modified:   mamoswine.png
+	modified:   manaphy.png
+	modified:   mandibuzz.png
+	modified:   manectric-mega.png
+	modified:   manectric.png
+	modified:   mankey.png
+	modified:   mantine.png
+	modified:   mantyke.png
+	modified:   maractus.png
+	modified:   mareanie.png
+	modified:   mareep.png
+	modified:   marill.png
+	modified:   marowak-alola.png
+	modified:   marowak.png
+	modified:   marshadow-gen7.png
+	modified:   marshadow.png
+	modified:   marshtomp.png
+	modified:   masquerain.png
+	modified:   mawile-mega.png
+	modified:   mawile.png
+	modified:   medicham-mega.png
+	modified:   medicham.png
+	modified:   meditite.png
+	modified:   meganium.png
+	modified:   melmetal.png
+	modified:   meloetta-pirouette.png
+	modified:   meloetta.png
+	modified:   meltan.png
+	modified:   meowstic.png
+	modified:   meowth-alola.png
+	modified:   meowth.png
+	modified:   mesprit.png
+	modified:   metagross-mega.png
+	modified:   metagross.png
+	modified:   metang.png
+	modified:   metapod.png
+	modified:   mew.png
+	modified:   mewtwo-mega-x.png
+	modified:   mewtwo-mega-y.png
+	modified:   mewtwo.png
+	modified:   mienfoo.png
+	modified:   mienshao.png
+	modified:   mightyena.png
+	modified:   milotic.png
+	modified:   miltank.png
+	modified:   mime-jr.png
+	modified:   mimikyu.png
+	modified:   minccino.png
+	modified:   minior-blue-gen7.png
+	modified:   minior-blue.png
+	modified:   minior-green-gen7.png
+	modified:   minior-green.png
+	modified:   minior-indigo-gen7.png
+	modified:   minior-indigo.png
+	modified:   minior-orange-gen7.png
+	modified:   minior-orange.png
+	modified:   minior-red-gen7.png
+	modified:   minior-red.png
+	modified:   minior-violet-gen7.png
+	modified:   minior-violet.png
+	deleted:    minior-yellow-gen7.png
+	modified:   minior-yellow.png
+	modified:   minior.png
+	modified:   minun.png
+	modified:   misdreavus.png
+	modified:   mismagius.png
+	modified:   moltres.png
+	modified:   monferno.png
+	modified:   morelull.png
+	modified:   mothim.png
+	modified:   mr-mime.png
+	modified:   mudbray.png
+	modified:   mudkip.png
+	modified:   mudsdale.png
+	modified:   muk-alola.png
+	modified:   muk.png
+	modified:   munchlax.png
+	modified:   munna.png
+	modified:   murkrow.png
+	modified:   musharna.png
+	modified:   naganadel.png
+	modified:   natu.png
+	modified:   necrozma-dawn.png
+	modified:   necrozma-dusk.png
+	modified:   necrozma-ultra.png
+	modified:   necrozma.png
+	modified:   nidoking.png
+	modified:   nidoqueen.png
+	modified:   nidoran-f.png
+	modified:   nidoran-m.png
+	modified:   nidorina.png
+	modified:   nidorino.png
+	modified:   nihilego.png
+	modified:   nincada.png
+	modified:   ninetales-alola.png
+	modified:   ninetales.png
+	modified:   ninjask.png
+	modified:   noctowl.png
+	modified:   noibat.png
+	modified:   noivern.png
+	modified:   nosepass.png
+	modified:   numel.png
+	modified:   nuzleaf.png
+	modified:   octillery.png
+	modified:   oddish.png
+	modified:   omanyte.png
+	modified:   omastar.png
+	modified:   onix.png
+	modified:   oranguru.png
+	modified:   oricorio-pau.png
+	modified:   oricorio-pom-pom.png
+	modified:   oricorio-sensu.png
+	modified:   oricorio.png
+	modified:   oshawott.png
+	modified:   pachirisu.png
+	modified:   palkia.png
+	modified:   palossand.png
+	modified:   palpitoad.png
+	modified:   pancham.png
+	modified:   pangoro.png
+	modified:   panpour.png
+	modified:   pansage.png
+	modified:   pansear.png
+	modified:   paras.png
+	modified:   parasect.png
+	modified:   passimian.png
+	modified:   patrat.png
+	modified:   pawniard.png
+	modified:   pelipper.png
+	modified:   persian-alola.png
+	modified:   persian.png
+	modified:   petilil.png
+	modified:   phanpy.png
+	modified:   phantump.png
+	modified:   pheromosa.png
+	modified:   phione.png
+	modified:   pichu-spiky-eared.png
+	modified:   pichu.png
+	modified:   pidgeot-mega.png
+	modified:   pidgeot.png
+	modified:   pidgeotto.png
+	modified:   pidgey.png
+	modified:   pidove.png
+	modified:   pignite.png
+	modified:   pikachu-alola-cap.png
+	modified:   pikachu-belle.png
+	modified:   pikachu-cosplay.png
+	modified:   pikachu-hoenn-cap.png
+	modified:   pikachu-kalos-cap.png
+	modified:   pikachu-libre.png
+	modified:   pikachu-original-cap.png
+	modified:   pikachu-partner-cap.png
+	modified:   pikachu-phd.png
+	modified:   pikachu-pop-star.png
+	modified:   pikachu-rock-star.png
+	modified:   pikachu-sinnoh-cap.png
+	modified:   pikachu-starter.png
+	modified:   pikachu-unova-cap.png
+	modified:   pikachu.png
+	modified:   pikipek.png
+	modified:   piloswine.png
+	modified:   pineco.png
+	modified:   pinsir-mega.png
+	modified:   pinsir.png
+	modified:   piplup.png
+	modified:   plusle.png
+	modified:   poipole.png
+	modified:   politoed.png
+	modified:   poliwag.png
+	modified:   poliwhirl.png
+	modified:   poliwrath.png
+	modified:   ponyta.png
+	modified:   poochyena.png
+	modified:   popplio.png
+	modified:   porygon-z.png
+	modified:   porygon.png
+	modified:   porygon2.png
+	modified:   primarina.png
+	modified:   primeape.png
+	modified:   prinplup.png
+	modified:   probopass.png
+	modified:   psyduck.png
+	modified:   pumpkaboo-large.png
+	modified:   pumpkaboo-small.png
+	modified:   pumpkaboo-super.png
+	modified:   pumpkaboo.png
+	modified:   pupitar.png
+	modified:   purrloin.png
+	modified:   purugly.png
+	modified:   pyroar.png
+	modified:   pyukumuku.png
+	modified:   quagsire.png
+	modified:   quilava.png
+	modified:   quilladin.png
+	modified:   qwilfish.png
+	modified:   raichu-alola.png
+	modified:   raichu.png
+	modified:   raikou.png
+	modified:   ralts.png
+	modified:   rampardos.png
+	modified:   rapidash.png
+	modified:   raticate-alola.png
+	modified:   raticate.png
+	modified:   rattata-alola.png
+	modified:   rattata.png
+	modified:   rayquaza-mega.png
+	modified:   rayquaza.png
+	modified:   regice.png
+	modified:   regigigas.png
+	modified:   regirock.png
+	modified:   registeel.png
+	modified:   relicanth.png
+	modified:   remoraid.png
+	modified:   reshiram.png
+	modified:   reuniclus.png
+	modified:   rhydon.png
+	modified:   rhyhorn.png
+	modified:   rhyperior.png
+	modified:   ribombee.png
+	modified:   riolu.png
+	modified:   rockruff.png
+	modified:   roggenrola.png
+	modified:   roselia.png
+	modified:   roserade.png
+	modified:   rotom-fan.png
+	modified:   rotom-frost.png
+	modified:   rotom-heat.png
+	modified:   rotom-mow.png
+	modified:   rotom-wash.png
+	modified:   rotom.png
+	modified:   rowlet.png
+	modified:   rufflet.png
+	modified:   sableye-mega.png
+	modified:   sableye.png
+	modified:   salamence-mega.png
+	modified:   salamence.png
+	modified:   salandit.png
+	modified:   salazzle.png
+	modified:   samurott.png
+	modified:   sandile.png
+	modified:   sandshrew-alola.png
+	modified:   sandshrew.png
+	modified:   sandslash-alola.png
+	modified:   sandslash.png
+	modified:   sandygast.png
+	modified:   sawk.png
+	modified:   sawsbuck-autumn.png
+	modified:   sawsbuck-summer.png
+	modified:   sawsbuck-winter.png
+	modified:   sawsbuck.png
+	modified:   scatterbug.png
+	modified:   sceptile-mega.png
+	modified:   sceptile.png
+	modified:   scizor-mega.png
+	modified:   scizor.png
+	modified:   scolipede.png
+	modified:   scrafty.png
+	modified:   scraggy.png
+	modified:   scyther.png
+	modified:   seadra.png
+	modified:   seaking.png
+	modified:   sealeo.png
+	modified:   seedot.png
+	modified:   seel.png
+	modified:   seismitoad.png
+	modified:   sentret.png
+	modified:   serperior.png
+	modified:   servine.png
+	modified:   seviper.png
+	modified:   sewaddle.png
+	modified:   sharpedo-mega.png
+	modified:   sharpedo.png
+	modified:   shaymin-sky.png
+	modified:   shaymin.png
+	modified:   shedinja.png
+	modified:   shelgon.png
+	modified:   shellder.png
+	modified:   shellos-east.png
+	modified:   shellos.png
+	modified:   shelmet.png
+	modified:   shieldon.png
+	modified:   shiftry.png
+	modified:   shiinotic.png
+	modified:   shinx.png
+	modified:   shroomish.png
+	modified:   shuckle.png
+	modified:   shuppet.png
+	modified:   sigilyph.png
+	modified:   silcoon.png
+	modified:   silvally-bug.png
+	modified:   silvally-dark.png
+	modified:   silvally-dragon.png
+	modified:   silvally-electric.png
+	modified:   silvally-fairy.png
+	modified:   silvally-fighting.png
+	modified:   silvally-fire.png
+	modified:   silvally-flying.png
+	modified:   silvally-ghost.png
+	modified:   silvally-grass.png
+	modified:   silvally-ground.png
+	modified:   silvally-ice.png
+	modified:   silvally-poison.png
+	modified:   silvally-psychic.png
+	modified:   silvally-rock.png
+	modified:   silvally-steel.png
+	modified:   silvally-water.png
+	modified:   silvally.png
+	modified:   simipour.png
+	modified:   simisage.png
+	modified:   simisear.png
+	modified:   skarmory.png
+	modified:   skiddo.png
+	modified:   skiploom.png
+	modified:   skitty.png
+	modified:   skorupi.png
+	modified:   skrelp.png
+	modified:   skuntank.png
+	modified:   slaking.png
+	modified:   slakoth.png
+	modified:   sliggoo.png
+	modified:   slowbro-mega.png
+	modified:   slowbro.png
+	modified:   slowking.png
+	modified:   slowpoke-galar.png
+	modified:   slowpoke.png
+	modified:   slugma.png
+	modified:   slurpuff.png
+	modified:   smeargle.png
+	modified:   smoochum.png
+	modified:   sneasel.png
+	modified:   snivy.png
+	modified:   snorlax.png
+	modified:   snorunt.png
+	modified:   snover.png
+	modified:   snubbull.png
+	modified:   solgaleo.png
+	modified:   solosis.png
+	modified:   solrock.png
+	modified:   spearow.png
+	modified:   spewpa.png
+	modified:   spheal.png
+	modified:   spinarak.png
+	modified:   spinda-blank.png
+	modified:   spinda-filled.png
+	modified:   spinda.png
+	modified:   spiritomb.png
+	modified:   spoink.png
+	modified:   spritzee.png
+	modified:   squirtle.png
+	modified:   stakataka.png
+	modified:   stantler.png
+	modified:   staraptor.png
+	modified:   staravia.png
+	modified:   starly.png
+	modified:   starmie.png
+	modified:   staryu.png
+	modified:   steelix-mega.png
+	modified:   steelix.png
+	modified:   steenee.png
+	modified:   stoutland.png
+	modified:   stufful.png
+	modified:   stunfisk.png
+	modified:   stunky.png
+	modified:   sudowoodo.png
+	modified:   suicune.png
+	modified:   sunflora.png
+	modified:   sunkern.png
+	modified:   surskit.png
+	modified:   swablu.png
+	modified:   swadloon.png
+	modified:   swalot.png
+	modified:   swampert-mega.png
+	modified:   swampert.png
+	modified:   swanna.png
+	modified:   swellow.png
+	modified:   swinub.png
+	modified:   swirlix.png
+	modified:   swoobat.png
+	modified:   sylveon.png
+	modified:   taillow.png
+	modified:   talonflame.png
+	modified:   tangela.png
+	modified:   tangrowth.png
+	modified:   tapu-bulu.png
+	modified:   tapu-fini.png
+	modified:   tapu-koko.png
+	modified:   tapu-lele.png
+	modified:   tauros.png
+	modified:   teddiursa.png
+	modified:   tentacool.png
+	modified:   tentacruel.png
+	modified:   tepig.png
+	modified:   terrakion.png
+	modified:   throh.png
+	modified:   thundurus-therian.png
+	modified:   thundurus.png
+	modified:   timburr.png
+	modified:   tirtouga.png
+	modified:   togedemaru.png
+	modified:   togekiss.png
+	modified:   togepi.png
+	modified:   togetic.png
+	modified:   torchic.png
+	modified:   torkoal.png
+	modified:   tornadus-therian.png
+	modified:   tornadus.png
+	modified:   torracat.png
+	modified:   torterra.png
+	modified:   totodile.png
+	modified:   toucannon.png
+	modified:   toxapex.png
+	modified:   toxicroak.png
+	modified:   tranquill.png
+	modified:   trapinch.png
+	modified:   treecko.png
+	modified:   trevenant.png
+	modified:   tropius.png
+	modified:   trubbish.png
+	modified:   trumbeak.png
+	modified:   tsareena.png
+	modified:   turtonator.png
+	modified:   turtwig.png
+	modified:   tympole.png
+	modified:   tynamo.png
+	modified:   type-null.png
+	modified:   typhlosion.png
+	modified:   tyranitar-mega.png
+	modified:   tyranitar.png
+	modified:   tyrantrum.png
+	modified:   tyrogue.png
+	modified:   tyrunt.png
+	modified:   umbreon.png
+	modified:   unfezant.png
+	modified:   unown-b.png
+	modified:   unown-c.png
+	modified:   unown-d.png
+	modified:   unown-e.png
+	modified:   unown-exclamation.png
+	modified:   unown-f.png
+	modified:   unown-g.png
+	modified:   unown-h.png
+	modified:   unown-i.png
+	modified:   unown-j.png
+	modified:   unown-k.png
+	modified:   unown-l.png
+	modified:   unown-m.png
+	modified:   unown-n.png
+	modified:   unown-o.png
+	modified:   unown-p.png
+	modified:   unown-q.png
+	modified:   unown-question.png
+	modified:   unown-r.png
+	modified:   unown-s.png
+	modified:   unown-t.png
+	modified:   unown-u.png
+	modified:   unown-v.png
+	modified:   unown-w.png
+	modified:   unown-x.png
+	modified:   unown-y.png
+	modified:   unown-z.png
+	modified:   unown.png
+	modified:   ursaring.png
+	modified:   uxie.png
+	modified:   vanillish.png
+	modified:   vanillite.png
+	modified:   vanilluxe.png
+	modified:   vaporeon.png
+	modified:   venipede.png
+	modified:   venomoth.png
+	modified:   venonat.png
+	modified:   venusaur-mega.png
+	modified:   venusaur.png
+	modified:   vespiquen.png
+	modified:   vibrava.png
+	modified:   victini.png
+	modified:   victreebel.png
+	modified:   vigoroth.png
+	modified:   vikavolt.png
+	modified:   vileplume.png
+	modified:   virizion.png
+	modified:   vivillon-archipelago.png
+	modified:   vivillon-continental.png
+	modified:   vivillon-elegant.png
+	modified:   vivillon-fancy.png
+	modified:   vivillon-garden.png
+	modified:   vivillon-high-plains.png
+	modified:   vivillon-icy-snow.png
+	modified:   vivillon-jungle.png
+	modified:   vivillon-marine.png
+	modified:   vivillon-modern.png
+	modified:   vivillon-monsoon.png
+	modified:   vivillon-ocean.png
+	modified:   vivillon-poke-ball.png
+	modified:   vivillon-polar.png
+	modified:   vivillon-river.png
+	modified:   vivillon-sandstorm.png
+	modified:   vivillon-savanna.png
+	modified:   vivillon-sun.png
+	modified:   vivillon-tundra.png
+	modified:   vivillon.png
+	modified:   volbeat.png
+	modified:   volcanion.png
+	modified:   volcarona.png
+	modified:   voltorb.png
+	modified:   vullaby.png
+	modified:   vulpix-alola.png
+	modified:   vulpix.png
+	modified:   wailmer.png
+	modified:   wailord.png
+	modified:   walrein.png
+	modified:   wartortle.png
+	modified:   watchog.png
+	modified:   weavile.png
+	modified:   weedle.png
+	modified:   weepinbell.png
+	modified:   weezing.png
+	modified:   whimsicott.png
+	modified:   whirlipede.png
+	modified:   whiscash.png
+	modified:   whismur.png
+	modified:   wigglytuff.png
+	modified:   wimpod.png
+	modified:   wingull.png
+	modified:   wishiwashi-school.png
+	modified:   wishiwashi.png
+	modified:   wobbuffet.png
+	modified:   woobat.png
+	modified:   wooper.png
+	modified:   wormadam-sandy.png
+	modified:   wormadam-trash.png
+	modified:   wormadam.png
+	modified:   wurmple.png
+	modified:   wynaut.png
+	modified:   xatu.png
+	modified:   xerneas-active.png
+	modified:   xerneas.png
+	modified:   xurkitree.png
+	modified:   yamask.png
+	modified:   yanma.png
+	modified:   yanmega.png
+	modified:   yungoos.png
+	modified:   yveltal.png
+	modified:   zangoose.png
+	modified:   zapdos.png
+	modified:   zebstrika.png
+	modified:   zekrom.png
+	modified:   zeraora.png
+	modified:   zigzagoon.png
+	modified:   zoroark.png
+	modified:   zorua.png
+	modified:   zubat.png
+	modified:   zweilous.png
+	modified:   zygarde-10.png
+	modified:   zygarde-complete.png
+	modified:   zygarde.png
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../.DS_Store
+	../Alola_AndUmbreon.html
+	../ProofOfConcepts/itamiii vs. Thenewguy8718 - Showdown!.html
+	../ProofOfConcepts/itamiii vs. Thenewguy8718 - Showdown!_files/
+	../__pycache__/
+	.DS_Store
+	alcremie-caramel-swirl-berry.png
+	alcremie-caramel-swirl-clover.png
+	alcremie-caramel-swirl-flower.png
+	alcremie-caramel-swirl-love.png
+	alcremie-caramel-swirl-plain.png
+	alcremie-caramel-swirl-ribbon.png
+	alcremie-caramel-swirl-star.png
+	alcremie-caramel-swirl-strawberry.png
+	alcremie-gmax.png
+	alcremie-lemon-cream-berry.png
+	alcremie-lemon-cream-clover.png
+	alcremie-lemon-cream-flower.png
+	alcremie-lemon-cream-love.png
+	alcremie-lemon-cream-plain.png
+	alcremie-lemon-cream-ribbon.png
+	alcremie-lemon-cream-star.png
+	alcremie-lemon-cream-strawberry.png
+	alcremie-matcha-cream-berry.png
+	alcremie-matcha-cream-clover.png
+	alcremie-matcha-cream-flower.png
+	alcremie-matcha-cream-love.png
+	alcremie-matcha-cream-plain.png
+	alcremie-matcha-cream-ribbon.png
+	alcremie-matcha-cream-star.png
+	alcremie-matcha-cream-strawberry.png
+	alcremie-mint-cream-berry.png
+	alcremie-mint-cream-clover.png
+	alcremie-mint-cream-flower.png
+	alcremie-mint-cream-love.png
+	alcremie-mint-cream-plain.png
+	alcremie-mint-cream-ribbon.png
+	alcremie-mint-cream-star.png
+	alcremie-mint-cream-strawberry.png
+	alcremie-rainbow-swirl-berry.png
+	alcremie-rainbow-swirl-clover.png
+	alcremie-rainbow-swirl-flower.png
+	alcremie-rainbow-swirl-love.png
+	alcremie-rainbow-swirl-plain.png
+	alcremie-rainbow-swirl-ribbon.png
+	alcremie-rainbow-swirl-star.png
+	alcremie-rainbow-swirl-strawberry.png
+	alcremie-ruby-cream-berry.png
+	alcremie-ruby-cream-clover.png
+	alcremie-ruby-cream-flower.png
+	alcremie-ruby-cream-love.png
+	alcremie-ruby-cream-plain.png
+	alcremie-ruby-cream-ribbon.png
+	alcremie-ruby-cream-star.png
+	alcremie-ruby-cream-strawberry.png
+	alcremie-ruby-swirl-berry.png
+	alcremie-ruby-swirl-clover.png
+	alcremie-ruby-swirl-flower.png
+	alcremie-ruby-swirl-love.png
+	alcremie-ruby-swirl-plain.png
+	alcremie-ruby-swirl-ribbon.png
+	alcremie-ruby-swirl-star.png
+	alcremie-ruby-swirl-strawberry.png
+	alcremie-salted-cream-berry.png
+	alcremie-salted-cream-clover.png
+	alcremie-salted-cream-flower.png
+	alcremie-salted-cream-love.png
+	alcremie-salted-cream-plain.png
+	alcremie-salted-cream-ribbon.png
+	alcremie-salted-cream-star.png
+	alcremie-salted-cream-strawberry.png
+	alcremie-vanilla-cream-berry.png
+	alcremie-vanilla-cream-clover.png
+	alcremie-vanilla-cream-flower.png
+	alcremie-vanilla-cream-love.png
+	alcremie-vanilla-cream-plain.png
+	alcremie-vanilla-cream-ribbon.png
+	alcremie-vanilla-cream-star.png
+	alcremie-vanilla-cream-strawberry.png
+	alcremie.png
+	appletun.png
+	applin.png
+	arctovish.png
+	arctozolt.png
+	arrokuda.png
+	barraskewda.png
+	blastoise-gmax.png
+	blipbug.png
+	boltund.png
+	butterfree-gmax.png
+	carkol.png
+	centiskorch-gmax.png
+	centiskorch.png
+	charizard-gmax.png
+	chewtle.png
+	cinderace-gmax.png
+	cinderace.png
+	clobbopus.png
+	coalossal-gmax.png
+	coalossal.png
+	copperajah-gmax.png
+	copperajah.png
+	corsola-galar.png
+	corviknight-gmax.png
+	corviknight.png
+	corvisquire.png
+	cramorant-gorging.png
+	cramorant-gulping.png
+	cramorant.png
+	cufant.png
+	cursola.png
+	darmanitan-galar-zen.png
+	darmanitan-galar.png
+	darumaka-galar.png
+	dottler.png
+	dracovish.png
+	dracozolt.png
+	dragapult.png
+	drakloak.png
+	drednaw-gmax.png
+	drednaw.png
+	dreepy.png
+	drizzile.png
+	dubwool.png
+	duraludon-gmax.png
+	duraludon.png
+	eevee-gmax.png
+	eiscue-noice.png
+	eiscue.png
+	eldegoss.png
+	eternatus-eternamax.png
+	eternatus.png
+	falinks.png
+	farfetchd-galar.png
+	female/
+	flapple-gmax.png
+	flapple.png
+	frosmoth.png
+	garbodor-gmax.png
+	gengar-gmax.png
+	gossifleur.png
+	grapploct.png
+	greedent.png
+	grimmsnarl-gmax.png
+	grimmsnarl.png
+	grookey.png
+	hatenna.png
+	hatterene-gmax.png
+	hatterene.png
+	hattrem.png
+	impidimp.png
+	indeedee.png
+	inteleon-gmax.png
+	inteleon.png
+	kingler-gmax.png
+	kubfu.png
+	lapras-gmax.png
+	linoone-galar.png
+	log
+	machamp-gmax.png
+	melmetal-gmax.png
+	meowth-galar.png
+	meowth-gmax.png
+	milcery.png
+	minior-yellow-gen-7.png
+	morgrem.png
+	morpeko-hangry.png
+	morpeko.png
+	mr-mime-galar.png
+	mr-rime.png
+	nickit.png
+	obstagoon.png
+	orbeetle-gmax.png
+	orbeetle.png
+	perrserker.png
+	pikachu-gmax.png
+	pikachu-world-cap.png
+	pincurchin.png
+	polteageist.png
+	ponyta-galar.png
+	raboot.png
+	rapidash-galar.png
+	rillaboom-gmax.png
+	rillaboom.png
+	rolycoly.png
+	rookidee.png
+	runerigus.png
+	sandaconda-gmax.png
+	sandaconda.png
+	scorbunny.png
+	silicobra.png
+	sinistea.png
+	sirfetchd.png
+	sizzlipede.png
+	skwovet.png
+	slowbro-galar.png
+	snom.png
+	snorlax-gmax.png
+	sobble.png
+	stonjourner.png
+	stunfisk-galar.png
+	thievul.png
+	thwackey.png
+	toxel.png
+	toxtricity-gmax.png
+	toxtricity-low-key.png
+	toxtricity.png
+	urshifu-gmax.png
+	urshifu-rapid-strike-gmax.png
+	urshifu.png
+	venusaur-gmax.png
+	weezing-galar.png
+	wooloo.png
+	yamask-galar.png
+	yamper.png
+	zacian-crowned.png
+	zacian.png
+	zamazenta-crowned.png
+	zamazenta.png
+	zarude-dada.png
+	zarude.png
+	zigzagoon-galar.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
