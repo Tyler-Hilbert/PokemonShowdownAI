@@ -1,7 +1,10 @@
 # Quick test to figure out best way to program battling multiple turns and predicting outcomes
 
+import sys
+sys.path.insert(1, '../')
 import Pokedex
 import Pokemon
+
 
 # Load Pokemon teams
 pokedex = Pokedex.Pokedex()

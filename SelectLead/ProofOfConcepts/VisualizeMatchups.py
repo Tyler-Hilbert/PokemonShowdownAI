@@ -1,5 +1,7 @@
 # Quick test to see if I can visualize the matchups of a battle
 
+import sys
+sys.path.insert(1, '../')
 import Pokedex
 import Pokemon
 
@@ -22,7 +24,7 @@ ax.set_ylim(0, size)
 teamNum = 0
 for team in [allyTeam, oppTeam]:
     for i in range(len(team)):
-        filename = "icons/" + team[i] + ".png"
+        filename = "../icons/" + team[i] + ".png"
         img = mpimg.imread(filename)
         imagebox = OffsetImage(img)
         ab = AnnotationBbox(imagebox, (teamNum, i))
