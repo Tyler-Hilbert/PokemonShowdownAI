@@ -1,5 +1,5 @@
 # Creates visual for how each pokemon matches up against each other pokemon in the opponent team
-# Takes an HTML input file
+# Takes an HTML input file saved to this directory
 
 # FIXME - Loading icons hasn't been checked for every pokemon and some may crash the program if the name isn't the same as the filename
 
@@ -14,6 +14,7 @@ import glob, os
 from matplotlib.offsetbox import TextArea, DrawingArea, OffsetImage, AnnotationBbox
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
+import shutil
 
 
 # Verify there is a file to read
@@ -25,6 +26,12 @@ filename = glob.glob("*html")[0]
 f = open(filename, encoding="utf8")
 soup = BeautifulSoup(f, 'html.parser')
 f.close()
+
+# Move file to another directory. This makes it faster to download file next game
+ARCHIVE_DIRECTORY = "OldGameBeginningDownloads"
+if not os.path.isdir(ARCHIVE_DIRECTORY):
+    os.mkdir(ARCHIVE_DIRECTORY+"/")
+shutil.move(filename, ARCHIVE_DIRECTORY+"/"+filename)
 
 # Parse out pokemon
 teams = []
