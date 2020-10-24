@@ -58,6 +58,7 @@ for team in [allyPkmnLst, foePkmnLst]:
         name = name.replace("heat", "-heat")
         name = name.replace("mow", "-mow")
         name = name.replace("wash", "-wash")
+        name = name.replace("null", "-null")
 
         filename = "../icons/" + name + ".png"
         img = mpimg.imread(filename)

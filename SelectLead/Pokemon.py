@@ -84,6 +84,7 @@ class Pokemon:
 # TODO - is there a better place to include this?
 # Returns list of all pokemon found in the input string
 def getPokemonInStr(str, pokedex):
+    str = str.replace("Type: Null", "typenull")
     # Parse out pokemon names
     strWords = re.split('[^a-zA-Z\-]', str)
     # Lower Case and remove -
