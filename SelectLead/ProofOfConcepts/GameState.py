@@ -6,7 +6,7 @@ import Pokedex
 import Pokemon
 
 def search(allyPkmn, foePkmn, allyPkmnLst, foePkmnLst):
-    print ("\n\nallyPkmn", allyPkmn.toString(), "\nfoePkmn", foePkmn.toString(), "\nallyPkmnLst", allyPkmnLst, "\nfoePkmnLst", foePkmnLst)
+    print ("\n\nallyPkmn:", allyPkmn.toString(), "\nfoePkmn:", foePkmn.toString(), "\nallyPkmnLst:\n", Pokemon.teamToString(allyPkmnLst), "foePkmnLst:\n", Pokemon.teamToString(foePkmnLst))
     score = allyPkmn.battle(foePkmn)
     if score > 0:
         foePkmnLst.remove(foePkmn)

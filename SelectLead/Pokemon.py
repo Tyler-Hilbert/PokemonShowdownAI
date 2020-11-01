@@ -101,3 +101,10 @@ def getPokemonInStr(str, pokedex):
         if pokedex.findPokemonUsingName(n) != None:
             pkmnLst.append(pokedex.findPokemonUsingName(n))
     return pkmnLst
+
+# Loops through list and adds each pokemons toString() to team string
+def teamToString(teamLst):
+    s = ""
+    for pkmn in teamLst:
+        s += pkmn.toString() + "\n"
+    return s
