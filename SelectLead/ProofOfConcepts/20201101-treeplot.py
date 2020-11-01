@@ -21,7 +21,7 @@ def make_annotations(pos, text, font_size=25, font_color='rgb(10,10,10)'):
         )
     return annotations
 
-XnNames = ['umbreon', 'vaporeon', 'espeon', 'leafeon', 'jolteon', 'umbreon', 'flareon', 'umbreon', 'espeon', 'espeon', 'leafeon', 'vaporeon', 'espeon', 'flareon', 'umbreon']
+XnNames = ['foe: umbreon', 'foe: vaporeon', 'ally: espeon', 'foe: leafeon', 'ally: jolteon', 'foe: umbreon', 'ally: flareon', 'foe: umbreon', 'ally: espeon', 'ally: espeon', 'foe: leafeon', 'foe: vaporeon', 'ally: espeon', 'ally: flareon', 'foe: umbreon']
 Xn =      [0,          1,         1,        2,         3,          3,        3,         3,         3,        4,        5,         5,          5,         6,         7]
 Yn =      [2,          1,         3,        2,         0,          1,        3,         4,         5,        2,        1,         3,          4,         2,         3]
 Xe = [1,  0,  None, 1,  2,  None, 2,  1,  None, 3,  1, None, 3,  3, None,  2,  3, None,  3,  3, None, 3,  3,  None, 3,  5, None, 5,  4,  None, 5,  6,  None, 6,  5,  None, 5,  5,  None, 6,  7,  None]
@@ -61,7 +61,7 @@ axis = dict(showline=False, # hide axis line, grid, ticklabels and  title
             showticklabels=False,
             )
 
-fig.update_layout(title= 'Hardcoded Game State',
+fig.update_layout(title= 'Hardcoded Game State Ally[Jolteon, Espeon, Flareon] vs Foe[Vaporeon, Umbreon, Leafeon]',
               annotations=make_annotations(position, XnNames),
               font_size=12,
               showlegend=False,
