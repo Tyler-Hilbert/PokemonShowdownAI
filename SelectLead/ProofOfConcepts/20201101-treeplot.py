@@ -24,10 +24,9 @@ def make_annotations(pos, text, font_size=25, font_color='rgb(10,10,10)'):
 XnNames = ['umbreon', 'vaporeon', 'espeon', 'leafeon', 'jolteon', 'umbreon', 'flareon', 'umbreon', 'espeon', 'espeon', 'leafeon', 'vaporeon', 'espeon', 'flareon', 'umbreon']
 Xn =      [0,          1,         1,        2,         3,          3,        3,         3,         3,        4,        5,         5,          5,         6,         7]
 Yn =      [2,          1,         3,        2,         0,          1,        3,         4,         5,        2,        1,         3,          4,         2,         3]
-Xn = [element * 2 for element in Xn]
+Xe = [1,  0,  None, 1,  2,  None, 2,  1,  None, 3,  1, None, 3,  3, None,  2,  3, None,  3,  3, None, 3,  3,  None, 3,  5, None, 5,  4,  None, 5,  6,  None, 6,  5,  None, 5,  5,  None, 6,  7,  None]
+Ye = [-1, -2, None, -1, -2, None, -2, -3, None, 0, -1, None, 0, -1, None, -2, -3, None, -3, -4, None, -4, -5, None, 0, -1, None, -1, -2, None, -1, -2, None, -2, -3, None, -3, -4, None, -2, -3, None]
 Yn = [element * -1 for element in Yn]
-Xe = []
-Ye = []
 
 position = {}
 for k in range(len(Xn)):
@@ -51,7 +50,7 @@ fig.add_trace(go.Scatter(x=Xn,
                                 line=dict(color='rgb(250,250,250)', width=1)
                                 ),
                   text=XnNames,
-                  hoverinfo='text',
+                  hoverinfo='x',
                   opacity=0.8
                   ))
 
