@@ -1,10 +1,9 @@
-# https://plotly.com/python/tree-plots/
+# Plots tree of predicted game state
+# Reference - https://plotly.com/python/tree-plots/
 
 import igraph
 from igraph import Graph, EdgeSeq
 import plotly.graph_objects as go
-
-NAMES_LIST = ["Jolteon", "Espeon", "Flareon", "Vaporeon", "Umbreon", "Leafeon"]
 
 def make_annotations(pos, text, font_size=25, font_color='rgb(10,10,10)'):
     L=len(pos)
@@ -14,37 +13,25 @@ def make_annotations(pos, text, font_size=25, font_color='rgb(10,10,10)'):
     for k in range(L):
         annotations.append(
             dict(
-                text=NAMES_LIST[int(labels[k]) % len(NAMES_LIST)], # or replace labels with a different list for the text within the circle
-                x=pos[k][0], y=2*M-position[k][1],
+                text=text[k], # or replace labels with a different list for the text within the circle
+                x=pos[k][0], y=pos[k][1],
                 xref='x1', yref='y1',
                 font=dict(color=font_color, size=font_size),
                 showarrow=False)
         )
     return annotations
 
-
-nr_vertices = 25
-v_label = list(map(str, range(nr_vertices)))
-G = Graph.Tree(nr_vertices, 2) # 2 stands for children number
-lay = G.layout('rt')
-
-position = {k: lay[k] for k in range(nr_vertices)}
-Y = [lay[k][1] for k in range(nr_vertices)]
-M = max(Y)
-
-es = EdgeSeq(G) # sequence of edges
-E = [e.tuple for e in G.es] # list of edges
-
-L = len(position)
-Xn = [position[k][0] for k in range(L)]
-Yn = [2*M-position[k][1] for k in range(L)]
+XnNames = ['umbreon', 'vaporeon', 'espeon', 'leafeon', 'jolteon', 'umbreon', 'leafeon', 'espeon', 'flareon', 'vaporeon', 'espeon', 'umbreon', 'leafeon', 'espeon', 'flareon', 'vaporeon', 'espeon', 'umbreon']
+Xn =      [0,          1,          1,        2,         3,         3,         5,        4,        3,         3,           3,       3,          5,         4,        6,         5,          5,       7]
+Yn =      [3,          2,          4,        3,         1,         2,         1,        3,        3,         4,           6,       1,          1,         3,        3,         4,          5,       4]
+Xn = [element * 2 for element in Xn]
 Xe = []
 Ye = []
-for edge in E:
-    Xe+=[position[edge[0]][0],position[edge[1]][0], None]
-    Ye+=[2*M-position[edge[0]][1],2*M-position[edge[1]][1], None]
 
-labels = v_label
+position = {}
+for k in range(len(Xn)):
+    position[k] = [Xn[k], Yn[k]]
+L = len(position)
 
 fig = go.Figure()
 fig.add_trace(go.Scatter(x=Xe,
@@ -62,7 +49,7 @@ fig.add_trace(go.Scatter(x=Xn,
                                 color='#6175c1',    #'#DB4551',
                                 line=dict(color='rgb(250,250,250)', width=1)
                                 ),
-                  text=labels,
+                  text=XnNames,
                   hoverinfo='text',
                   opacity=0.8
                   ))
@@ -74,8 +61,8 @@ axis = dict(showline=False, # hide axis line, grid, ticklabels and  title
             showticklabels=False,
             )
 
-fig.update_layout(title= 'Tree with Reingold-Tilford Layout',
-              annotations=make_annotations(position, v_label),
+fig.update_layout(title= 'Hardcoded Game State',
+              annotations=make_annotations(position, XnNames),
               font_size=12,
               showlegend=False,
               xaxis=axis,
