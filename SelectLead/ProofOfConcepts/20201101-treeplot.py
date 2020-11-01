@@ -21,10 +21,11 @@ def make_annotations(pos, text, font_size=25, font_color='rgb(10,10,10)'):
         )
     return annotations
 
-XnNames = ['umbreon', 'vaporeon', 'espeon', 'leafeon', 'jolteon', 'umbreon', 'leafeon', 'espeon', 'flareon', 'vaporeon', 'espeon', 'umbreon', 'leafeon', 'espeon', 'flareon', 'vaporeon', 'espeon', 'umbreon']
-Xn =      [0,          1,          1,        2,         3,         3,         5,        4,        3,         3,           3,       3,          5,         4,        6,         5,          5,       7]
-Yn =      [3,          2,          4,        3,         1,         2,         1,        3,        3,         4,           6,       1,          1,         3,        3,         4,          5,       4]
+XnNames = ['umbreon', 'vaporeon', 'espeon', 'leafeon', 'jolteon', 'umbreon', 'flareon', 'umbreon', 'espeon', 'espeon', 'leafeon', 'vaporeon', 'espeon', 'flareon', 'umbreon']
+Xn =      [0,          1,         1,        2,         3,          3,        3,         3,         3,        4,        5,         5,          5,         6,         7]
+Yn =      [2,          1,         3,        2,         0,          1,        3,         4,         5,        2,        1,         3,          4,         2,         3]
 Xn = [element * 2 for element in Xn]
+Yn = [element * -1 for element in Yn]
 Xe = []
 Ye = []
 
