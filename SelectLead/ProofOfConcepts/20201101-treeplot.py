@@ -40,20 +40,6 @@ fig.add_trace(go.Scatter(x=Xe,
                    line=dict(color='rgb(210,210,210)', width=1),
                    hoverinfo='none'
                    ))
-fig.add_trace(go.Scatter(x=Xn,
-                  y=Yn,
-                  mode='markers',
-                  name='bla',
-                  marker=dict(symbol='circle-dot',
-                                size=18,
-                                color='#6175c1',    #'#DB4551',
-                                line=dict(color='rgb(250,250,250)', width=1)
-                                ),
-                  text=XnNames,
-                  hoverinfo='x',
-                  opacity=0.8
-                  ))
-
 
 axis = dict(showline=False, # hide axis line, grid, ticklabels and  title
             zeroline=False,
