@@ -34,4 +34,4 @@ allyPkmnLst = Pokemon.getPokemonInStr("Jolteon Espeon Flareon", pokedex)
 foePkmnLst = Pokemon.getPokemonInStr("Vaporeon Umbreon Leafeon", pokedex)
 # TODO -- loop through other ally pokemon
 for pkmn in foePkmnLst:
-    search (allyPkmnLst[0], pkmn, allyPkmnLst, foePkmnLst, 1)
+    search (allyPkmnLst[0], pkmn, allyPkmnLst.copy(), foePkmnLst.copy(), 1)
