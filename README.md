@@ -1,5 +1,6 @@
 # PokemonShowdownAI
-This is 2 projects I wrote while making a bot that is capable of playing the online player vs player game Pokemon Showdown.
+This is 2 projects I wrote while making a bot that is capable of playing the online player vs player game Pokemon Showdown.  
+Note all scripts are tested on only Python3.8.  
 ## RandomSetGenerationAnalysis
 This is an attempt to analyze the different sets that can be randomly generated. This will be useful information in situations where the opponent has unknown pokemon,moves,abilities, etc.
 ## SelectLead
