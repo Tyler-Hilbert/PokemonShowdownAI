@@ -5,11 +5,11 @@ sys.path.insert(1, '../')
 import Pokedex
 import Pokemon
 
-DEBUG = False
+VERBOSE = False
 
 def search(allyPkmn, foePkmn, allyPkmnLst, foePkmnLst, depth):
 
-    if DEBUG:
+    if VERBOSE:
         print ("\n\n", "*-*"*depth)
         print ("allyPkmn:", allyPkmn.toString(), "\nfoePkmn:", foePkmn.toString(), "\nallyPkmnLst:\n", Pokemon.teamToString(allyPkmnLst), "foePkmnLst:\n", Pokemon.teamToString(foePkmnLst))
     else:
@@ -25,7 +25,7 @@ def search(allyPkmn, foePkmn, allyPkmnLst, foePkmnLst, depth):
         for pkmn in allyPkmnLst:
             search(pkmn, foePkmn, allyPkmnLst.copy(), foePkmnLst.copy(), depth+1)
     else:
-        if DEBUG:
+        if VERBOSE:
             print ("Unknown winner")
 
 # Load Pokemon teams
