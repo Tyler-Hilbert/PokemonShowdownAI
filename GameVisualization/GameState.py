@@ -2,7 +2,7 @@
 # Use `$dot -Tpng GameState.gv -o GameState.png` to create graphic
 
 import sys
-sys.path.insert(1, '../')
+sys.path.insert(1, '../SelectLead')
 import Pokedex
 import Pokemon
 

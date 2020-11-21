@@ -4,7 +4,7 @@
 # FIXME - Loading icons hasn't been checked for every pokemon and some may crash the program if the name isn't the same as the filename
 
 import sys
-sys.path.insert(1, '../')
+sys.path.insert(1, '../SelectLead')
 import Pokedex
 import Pokemon
 
@@ -67,7 +67,7 @@ for team in [allyPkmnLst, foePkmnLst]:
         name = name.replace("wash", "-wash")
         name = name.replace("null", "-null")
 
-        filename = "../icons/" + name + ".png"
+        filename = "icons/" + name + ".png"
         img = mpimg.imread(filename)
         imagebox = OffsetImage(img)
         ab = AnnotationBbox(imagebox, (teamNum, i))
