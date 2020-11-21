@@ -49,11 +49,14 @@ f.close()
 pokedex = Pokedex.Pokedex()
 allyPkmnLst = Pokemon.getPokemonInStr("Jolteon Espeon Flareon", pokedex)
 foePkmnLst = Pokemon.getPokemonInStr("Vaporeon Umbreon Leafeon", pokedex)
-# TODO -- loop through other ally pokemon
-for pkmn in foePkmnLst:
-    search (allyPkmnLst[0], pkmn, allyPkmnLst.copy(), foePkmnLst.copy(), 1, allyPkmnLst[0].name)
+for allyPkmn in allyPkmnLst:
+    for foePkmn in foePkmnLst:
+        search (allyPkmn, foePkmn, allyPkmnLst.copy(), foePkmnLst.copy(), 1, allyPkmn.name)
 
 # Finish File
 f = open(OUTPUT_FILENAME, "a")
 f.write("}")
 f.close()
+
+# Output
+print ("Use the command `$dot -Tpng GameState.gv -o GameState.png` to create graphic output to the file GameState.png")
