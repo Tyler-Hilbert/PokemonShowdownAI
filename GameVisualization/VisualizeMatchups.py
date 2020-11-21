@@ -1,8 +1,6 @@
 # Creates visual for how each pokemon matches up against each other pokemon in the opponent team
 # Takes an HTML input file saved to this directory
 
-# FIXME - Loading icons hasn't been checked for every pokemon and some may crash the program if the name isn't the same as the filename
-
 import sys
 sys.path.insert(1, '../SelectLead')
 import Pokedex
