@@ -1,6 +1,8 @@
 # PokemonShowdownAI
-This is 2 projects I wrote while making a bot that is capable of playing the online player vs player game Pokemon Showdown.  
+This is 3 projects I wrote while making a bot that is capable of playing the online player vs player game Pokemon Showdown.  
 Note all scripts are tested on only Python3.8.  
+## GameVisualization  
+Scripts used to create visuals of a game. Currently contains two visualization scripts. One graphs the matchups of Pokemon between 2 teams. The other creates a game state tree plot like you would use in a minimax algorithm.  
 ## RandomSetGenerationAnalysis
 This is an attempt to analyze the different sets that can be randomly generated. This will be useful information in situations where the opponent has unknown pokemon,moves,abilities, etc.
 ## SelectLead
