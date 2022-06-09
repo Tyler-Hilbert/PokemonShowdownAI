@@ -3,6 +3,7 @@ This is 4 projects I wrote while making a bot that is capable of playing the onl
 Note all scripts are tested on only Python3.8.  
 ## GameVisualization  
 Scripts used to create visuals of a game. Currently contains two visualization scripts. One graphs the matchups of Pokemon between 2 teams. The other creates a game state tree plot like you would use in a minimax algorithm.  
+![Visualize matchups](https://raw.githubusercontent.com/Tyler-Hilbert/PokemonShowdownAI/master/GameVisualization/VisualizeMatchups_output.png)  
 ## RandomSetGenerationAnalysis
 This is an attempt to analyze the different sets that can be randomly generated. This will be useful information in situations where the opponent has unknown pokemon,moves,abilities, etc.
 ## SelectLead
